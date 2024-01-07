@@ -1,10 +1,7 @@
 import React from "react";
-import MuiButton from "@mui/material/Button";
 import { useNavigate } from "react-router";
 
 export function SideNav() {
-  const navigate = useNavigate();
-
   return (
     <div style={styles.sideNavStyle}>
       <h style={{ color: "white" }}>Sandeep Singh</h>
