@@ -24,21 +24,20 @@ const styles = {
     // position: "fixed",
     zIndex: 1,
     backgroundColor: "#646464",
-    paddingTop: "20px",
+    paddingTop: "1.2em",
     // border: "1px solid rgba(255, 255, 255, 0.10)",
   },
 
   linkStyle: {
     fontWeight: "bold",
     textAlign: "left",
-    padding: "15px 0px 15px 30px",
-    marginTop: "25px",
-    marginBottom: "25px",
+    padding: "1em 0em 1em 1.875em",
+    marginTop: "1.5em",
+    marginBottom: "1.5em",
     textDecoration: "none",
-    fontSize: "1.1vw",
+    fontSize: "1rem",
     color: "white",
     display: "block",
-    caretColor: "transparent",
   },
 
   hoverStyle: {
