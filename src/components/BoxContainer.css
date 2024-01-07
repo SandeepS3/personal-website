@@ -1,0 +1,15 @@
+
+.box-container {
+    display: flex;
+    flex: 1;
+    background-color: #4A4A4A;
+  }
+  
+  .page-container {
+    height: 100vh;
+    margin:15px;
+    width: 100%;
+
+  }
+  
+  
