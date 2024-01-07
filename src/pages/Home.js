@@ -1,6 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 
-export default function Home() {
+const Home = () => {
   return (
     <div style={styles.background}>
       <div style={styles.info}>
@@ -9,7 +9,9 @@ export default function Home() {
       </div>
     </div>
   );
-}
+};
+
+export default Home;
 
 const styles = {
   background: {

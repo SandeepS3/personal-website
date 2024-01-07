@@ -24,19 +24,19 @@ export function SideNav() {
       <h style={styles.name}>Sandeep Singh</h>
       <div style={styles.socials}>
         <img
-          style={{ position: "relative", left: "50px", cursor: "pointer" }}
+          style={{ marginRight: "2.3em", cursor: "pointer" }}
           src={Github}
           alt="Github"
           onClick={() => handleOpenWebsite("Github")}
         />
         <img
-          style={{ position: "relative", left: "80px", cursor: "pointer" }}
+          style={{ marginRight: "3.3em", cursor: "pointer" }}
           src={Instagram}
           alt="Instagram"
           onClick={() => handleOpenWebsite("Instagram")}
         />
         <img
-          style={{ position: "relative", left: "130px", cursor: "pointer" }}
+          style={{ cursor: "pointer" }}
           src={Linkedin}
           alt="Linkedin"
           onClick={() => handleOpenWebsite("Linkedin")}
@@ -83,6 +83,7 @@ const styles = {
   socials: {
     flexDirection: "row",
     alignSelf: "flex-start",
+    marginLeft: "3em",
   },
   hoverStyle: {
     backgroundColor: "rgba(255, 255, 255, 0.15)",
