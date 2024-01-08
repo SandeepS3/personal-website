@@ -25,6 +25,8 @@ const styles = {
     fontFamily: "Actor",
     fontSize: "1.563rem",
     color: "white",
+    borderBottom: "0.5vh solid #3C84AC",
+    marginBottom: "1vh",
   },
 };
 
@@ -41,7 +43,6 @@ const mediaStyles = {
   info: {
     display: "flex",
     flexDirection: "column",
-    // alignItems: "center",
     alignItems: "flex-start",
     paddingLeft: "5vw",
     paddingTop: "65vh",
@@ -50,12 +51,14 @@ const mediaStyles = {
     fontFamily: "Acme",
     fontSize: "2.25rem",
     color: "white",
-    marginBottom: "1rem",
+    // marginBottom: "1rem",
   },
   title: {
     fontFamily: "Actor",
     fontSize: "1rem",
     color: "white",
+    borderBottom: "0.5vh solid #3C84AC",
+    marginBottom: "1vh",
   },
 };
 

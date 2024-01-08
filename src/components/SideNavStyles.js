@@ -40,7 +40,7 @@ const styles = {
     display: "flex",
     flexDirection: "column",
     alignSelf: "flex-start",
-    marginLeft: "1em",
+    marginLeft: "1.5vw",
     width: "100%",
   },
   pageItem: {
