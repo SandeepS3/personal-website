@@ -19,6 +19,23 @@ const styles = {
     marginLeft: "3.8em",
     marginBottom: "5em",
   },
+  insta: {
+    marginRight: "4em",
+    cursor: "pointer",
+    width: "2.5em",
+    height: "2.5em",
+  },
+  github: {
+    marginRight: "3em",
+    cursor: "pointer",
+    width: "4em",
+    height: "4em",
+  },
+  linkedin: {
+    cursor: "pointer",
+    width: "2.5em",
+    height: "2.5em",
+  },
   pages: {
     display: "flex",
     flexDirection: "column",
@@ -56,7 +73,31 @@ const mediaStyles = {
     flexDirection: "column",
     alignSelf: "flex-start",
     // marginLeft: "3.8em",
-    // marginBottom: "5em",
+    marginBottom: "3em",
+  },
+  insta: {
+    marginRight: "2em",
+    cursor: "pointer",
+    width: "2.5em",
+    height: "2.5em",
+  },
+  github: {
+    marginRight: "1em",
+    cursor: "pointer",
+    width: "4em",
+    height: "4em",
+  },
+  linkedin: {
+    cursor: "pointer",
+    width: "2.5em",
+    height: "2.5em",
+  },
+  pages: {
+    display: "flex",
+    flexDirection: "column",
+    alignSelf: "flex-start",
+    // marginLeft: "1em",
+    width: "100%",
   },
   pageItem: {
     display: "flex",

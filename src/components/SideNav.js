@@ -46,29 +46,19 @@ export function SideNav() {
       <h style={styles.name}>Sandeep Singh</h>
       <div style={styles.socials}>
         <img
-          style={{
-            marginRight: "3em",
-            cursor: "pointer",
-            width: "4em",
-            height: "4em",
-          }}
+          style={styles.github}
           src={Github}
           alt="Github"
           onClick={() => handleOpenWebsite("Github")}
         />
         <img
-          style={{
-            marginRight: "4em",
-            cursor: "pointer",
-            width: "2.5em",
-            height: "2.5em",
-          }}
+          style={styles.insta}
           src={Instagram}
           alt="Instagram"
           onClick={() => handleOpenWebsite("Instagram")}
         />
         <img
-          style={{ cursor: "pointer", width: "2.5em", height: "2.5em" }}
+          style={styles.linkedin}
           src={Linkedin}
           alt="Linkedin"
           onClick={() => handleOpenWebsite("Linkedin")}
