@@ -20,6 +20,7 @@ const styles = {
   },
   aboutMe: {
     display: "flex",
+    flexDirection: "row",
   },
   leftHalf: {
     flex: 1,
@@ -93,7 +94,7 @@ const mediaStyles = {
   },
 };
 
-const mergedStyles = window.matchMedia("(max-width: 600px)").matches
+const mergedStyles = window.matchMedia("(max-width: 900px)").matches
   ? { ...styles, ...mediaStyles }
   : styles;
 
