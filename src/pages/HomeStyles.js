@@ -35,7 +35,7 @@ const mediaStyles = {
     backgroundImage: `url(${process.env.PUBLIC_URL}/images/MobileBeach.png)`,
     backgroundRepeat: "no-repeat",
     backgroundSize: "contain",
-    minHeight: "1000vh",
+    minHeight: "100vh",
     borderRadius: "1.25em",
   },
   info: {
