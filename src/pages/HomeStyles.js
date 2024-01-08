@@ -30,7 +30,7 @@ const styles = {
 
 const mediaStyles = {
   background: {
-    backgroundImage: `url(${process.env.PUBLIC_URL}/images/Beach.png)`,
+    backgroundImage: `url(${process.env.PUBLIC_URL}/images/MobileBeach.png)`,
     backgroundRepeat: "no-repeat",
     backgroundPosition: "center center",
     WebkitBackgroundSize: "contain",
@@ -41,7 +41,8 @@ const mediaStyles = {
   info: {
     display: "flex",
     flexDirection: "column",
-    alignItems: "center",
+    // alignItems: "center",
+    alignItems: "flex-start",
     paddingLeft: "5vw",
     paddingTop: "65vh",
   },
@@ -53,7 +54,7 @@ const mediaStyles = {
   },
   title: {
     fontFamily: "Actor",
-    fontSize: "1.5rem",
+    fontSize: "1rem",
     color: "white",
   },
 };
