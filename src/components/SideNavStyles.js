@@ -129,6 +129,7 @@ const mediaStyles = {
     alignItems: "center",
     marginBottom: "4em",
     cursor: "pointer",
+    flexDirection: "column",
   },
 };
 

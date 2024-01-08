@@ -43,7 +43,7 @@ const mediaStyles = {
     flexDirection: "column",
     alignItems: "flex-start",
     paddingLeft: "5vw",
-    paddingTop: "65vh",
+    paddingTop: "50vh",
   },
   name: {
     fontFamily: "Acme",
