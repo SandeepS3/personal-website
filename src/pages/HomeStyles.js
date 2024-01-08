@@ -2,9 +2,9 @@ const styles = {
   background: {
     backgroundImage: `url(${process.env.PUBLIC_URL}/images/Beach.png)`,
     backgroundRepeat: "no-repeat",
-    backgroundPosition: "center center",
+    backgroundPosition: "center",
     WebkitBackgroundSize: "cover",
-    backgroundSize: "100% 275%",
+    backgroundSize: "cover",
     minHeight: "100vh",
     borderRadius: "1.25em",
   },

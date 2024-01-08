@@ -89,7 +89,7 @@ const mediaStyles = {
     padding: "1vh",
     backgroundColor: "#646464",
     borderRadius: "1.25em",
-    marginBottom: "1vh",
+    marginBottom: "0.5vh",
   },
 };
 
