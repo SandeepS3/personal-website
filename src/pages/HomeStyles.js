@@ -4,7 +4,7 @@ const styles = {
     backgroundRepeat: "no-repeat",
     backgroundPosition: "center center",
     WebkitBackgroundSize: "cover",
-    backgroundSize: "cover",
+    backgroundSize: "100% 275%",
     minHeight: "100vh",
     borderRadius: "1.25em",
   },
@@ -43,7 +43,7 @@ const mediaStyles = {
     flexDirection: "column",
     alignItems: "flex-start",
     paddingLeft: "5vw",
-    paddingTop: "65vh",
+    paddingTop: "50vh",
   },
   name: {
     fontFamily: "Acme",
