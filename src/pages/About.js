@@ -17,7 +17,7 @@ const About = () => {
         </div>
         <div style={styles.rightHalf}>
           <div style={styles.imageBox}>
-            <img style={styles.image} src={Picture} />
+            <img style={styles.image} src={Picture} alt="About Me" />
           </div>
         </div>
       </div>
