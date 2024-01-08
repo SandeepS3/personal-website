@@ -39,6 +39,11 @@ const mediaStyles = {
     backgroundSize: "contain",
     minHeight: "100vh",
     borderRadius: "1.25em",
+    borderRadius: "50%", // Make the bottom of the image curved
+    overflow: "hidden", // Ensure content doesn't overflow outside the curved border
+    display: "flex",
+    alignItems: "center", // Center the content vertically
+    justifyContent: "center",
   },
   info: {
     display: "flex",
