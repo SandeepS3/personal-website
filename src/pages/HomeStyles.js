@@ -34,13 +34,11 @@ const mediaStyles = {
   background: {
     backgroundImage: `url(${process.env.PUBLIC_URL}/images/Beach4.png)`,
     backgroundRepeat: "no-repeat",
-    // backgroundPosition: "center center",
+    backgroundPosition: "center",
     // WebkitBackgroundSize: "cover",
     backgroundSize: "contain",
     minHeight: "100vh",
-    // borderRadius: "1.25em",
-    borderRadius: "50%", // Make the bottom of the image curved
-    overflow: "hidden", // Ensure content doesn't overflow outside the curved border
+    borderRadius: "1.25em",
     display: "flex",
     alignItems: "center", // Center the content vertically
     justifyContent: "center",
