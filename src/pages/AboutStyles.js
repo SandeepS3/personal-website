@@ -84,6 +84,11 @@ const mediaStyles = {
     width: "25vw",
     height: "45vw",
     borderRadius: "1.25em",
+  },
+  imageBox: {
+    padding: "1vh",
+    backgroundColor: "#646464",
+    borderRadius: "1.25em",
     marginBottom: "1vh",
   },
 };
