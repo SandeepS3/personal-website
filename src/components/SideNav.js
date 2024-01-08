@@ -168,4 +168,12 @@ const styles = {
     fontSize: "1rem",
     color: "white",
   },
+  "@media (max-width: 600px)": {
+    name: {
+      fontWeight: "bold",
+      color: "white",
+      fontSize: "1rem",
+      marginBottom: "-0.8rem",
+    },
+  },
 };
