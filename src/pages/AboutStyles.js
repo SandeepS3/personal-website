@@ -84,6 +84,7 @@ const mediaStyles = {
     width: "25vw",
     height: "45vw",
     borderRadius: "1.25em",
+    marginBottom: "1vh",
   },
 };
 
