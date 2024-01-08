@@ -20,6 +20,7 @@ const styles = {
   },
   aboutMe: {
     display: "flex",
+    flexDirection: "row",
   },
   leftHalf: {
     flex: 1,
