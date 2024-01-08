@@ -64,6 +64,11 @@ const mediaStyles = {
     display: "flex",
     flexDirection: "column",
   },
+  image: {
+    width: "25vw",
+    height: "45vw",
+    borderRadius: "1.25em",
+  },
 };
 
 const mergedStyles = window.matchMedia("(max-width: 600px)").matches
