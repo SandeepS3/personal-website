@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 // import { useState } from "react";
 import { styles } from "./SideNavStyles";
@@ -11,6 +11,8 @@ export function SideNav() {
   const About = `${process.env.PUBLIC_URL}/images/About.png`;
   const Experience = `${process.env.PUBLIC_URL}/images/Experience.png`;
   const Projects = `${process.env.PUBLIC_URL}/images/Projects.png`;
+
+  const [hovered, setHovered] = useState(null);
 
   const Navigate = useNavigate();
 
@@ -65,7 +67,11 @@ export function SideNav() {
         />
       </div>
       <div style={styles.pages}>
-        <div style={styles.pageItem}>
+        <div
+          style={hovered === "Home" ? styles.pageItemHover : styles.pageItem}
+          onMouseEnter={() => setHovered("Home")}
+          onMouseLeave={() => setHovered(null)}
+        >
           <img
             style={styles.pageImage}
             src={Home}
@@ -76,7 +82,11 @@ export function SideNav() {
             Home
           </a>
         </div>
-        <div style={styles.pageItem}>
+        <div
+          style={hovered === "About" ? styles.pageItemHover : styles.pageItem}
+          onMouseEnter={() => setHovered("About")}
+          onMouseLeave={() => setHovered(null)}
+        >
           <img
             style={styles.pageImage}
             src={About}
@@ -87,7 +97,13 @@ export function SideNav() {
             About
           </a>
         </div>
-        <div style={styles.pageItem}>
+        <div
+          style={
+            hovered === "Experience" ? styles.pageItemHover : styles.pageItem
+          }
+          onMouseEnter={() => setHovered("Experience")}
+          onMouseLeave={() => setHovered(null)}
+        >
           <img
             style={styles.pageImage}
             src={Experience}
@@ -98,7 +114,13 @@ export function SideNav() {
             Experience
           </a>
         </div>
-        <div style={styles.pageItem}>
+        <div
+          style={
+            hovered === "Projects" ? styles.pageItemHover : styles.pageItem
+          }
+          onMouseEnter={() => setHovered("Projects")}
+          onMouseLeave={() => setHovered(null)}
+        >
           <img
             style={styles.pageImage}
             src={Projects}
