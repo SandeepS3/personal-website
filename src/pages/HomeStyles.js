@@ -2,7 +2,7 @@ const styles = {
   background: {
     backgroundImage: `url(${process.env.PUBLIC_URL}/images/Beach.png)`,
     backgroundRepeat: "no-repeat",
-    backgroundPosition: "center",
+    backgroundPosition: "center center",
     WebkitBackgroundSize: "cover",
     backgroundSize: "cover",
     minHeight: "100vh",
@@ -34,9 +34,8 @@ const mediaStyles = {
   background: {
     backgroundImage: `url(${process.env.PUBLIC_URL}/images/MobileBeach.png)`,
     backgroundRepeat: "no-repeat",
-    backgroundPosition: "center center",
     backgroundSize: "contain",
-    minHeight: "100vh",
+    minHeight: "1000vh",
     borderRadius: "1.25em",
   },
   info: {
