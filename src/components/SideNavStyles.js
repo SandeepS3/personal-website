@@ -71,18 +71,17 @@ const mediaStyles = {
   },
   socials: {
     flexDirection: "column",
-    alignSelf: "flex-start",
-    // marginLeft: "3.8em",
-    marginBottom: "3em",
+    alignSelf: "center",
+    marginBottom: "5em",
   },
   insta: {
-    marginRight: "2em",
+    // marginRight: "2em",
     cursor: "pointer",
     width: "2.5em",
     height: "2.5em",
   },
   github: {
-    marginRight: "1em",
+    // marginRight: "1em",
     cursor: "pointer",
     width: "4em",
     height: "4em",
