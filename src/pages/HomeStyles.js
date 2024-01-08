@@ -34,9 +34,9 @@ const mediaStyles = {
   background: {
     backgroundImage: `url(${process.env.PUBLIC_URL}/images/MobileBeach.png)`,
     backgroundRepeat: "no-repeat",
-    backgroundPosition: "center center",
-    WebkitBackgroundSize: "cover",
-    backgroundSize: "80% 275%",
+    // backgroundPosition: "center center",
+    // WebkitBackgroundSize: "cover",
+    backgroundSize: "contain",
     minHeight: "100vh",
     borderRadius: "1.25em",
   },
