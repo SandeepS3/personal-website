@@ -38,7 +38,7 @@ const mediaStyles = {
     // WebkitBackgroundSize: "cover",
     backgroundSize: "contain",
     minHeight: "100vh",
-    borderRadius: "1.25em",
+    // borderRadius: "1.25em",
     borderRadius: "50%", // Make the bottom of the image curved
     overflow: "hidden", // Ensure content doesn't overflow outside the curved border
     display: "flex",
