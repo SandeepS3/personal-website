@@ -48,9 +48,22 @@ const styles = {
 const mediaStyles = {
   name: {
     fontWeight: "bold",
-    color: "black",
+    color: "white",
     fontSize: "1rem",
     marginBottom: "-0.8rem",
+  },
+  socials: {
+    flexDirection: "column",
+    alignSelf: "flex-start",
+    // marginLeft: "3.8em",
+    // marginBottom: "5em",
+  },
+  pageItem: {
+    display: "flex",
+    alignItems: "center",
+    marginBottom: "4em",
+    cursor: "pointer",
+    flexDirection: "column",
   },
 };
 
