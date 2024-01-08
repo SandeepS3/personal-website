@@ -36,7 +36,7 @@ const mediaStyles = {
     backgroundRepeat: "no-repeat",
     backgroundPosition: "center center",
     WebkitBackgroundSize: "cover",
-    backgroundSize: "100% 275%",
+    backgroundSize: "80% 275%",
     minHeight: "100vh",
     borderRadius: "1.25em",
   },

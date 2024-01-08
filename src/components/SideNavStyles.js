@@ -113,10 +113,22 @@ const mediaStyles = {
   },
   pageItem: {
     display: "flex",
+    paddingLeft: "1.5vw",
+    paddingTop: "0.5vh",
+    paddingBottom: "0.5vh",
     alignItems: "center",
     marginBottom: "4em",
     cursor: "pointer",
     flexDirection: "column",
+  },
+  pageItemHover: {
+    display: "flex",
+    paddingLeft: "1.5vw",
+    paddingTop: "0.5vh",
+    paddingBottom: "0.5vh",
+    alignItems: "center",
+    marginBottom: "4em",
+    cursor: "pointer",
   },
 };
 
