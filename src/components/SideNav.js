@@ -29,7 +29,7 @@ export function SideNav() {
     }
     window.open(websiteURL, "_blank");
   };
-  const handlePageIconClick = (page) => {
+  const handlePageClick = (page) => {
     if (page === "Home") {
       Navigate("/");
     } else if (page === "About") {
@@ -71,31 +71,24 @@ export function SideNav() {
           style={hovered === "Home" ? styles.pageItemHover : styles.pageItem}
           onMouseEnter={() => setHovered("Home")}
           onMouseLeave={() => setHovered(null)}
+          onClick={() => handlePageClick("Home")}
         >
           <img
             style={styles.pageImage}
             src={Home}
             alt="Home"
-            onClick={() => handlePageIconClick("Home")}
+            // onClick={() => handlePageIconClick("Home")}
           />
-          <a style={styles.pagesText} href="/">
-            Home
-          </a>
+          <h style={styles.pagesText}>Home</h>
         </div>
         <div
           style={hovered === "About" ? styles.pageItemHover : styles.pageItem}
           onMouseEnter={() => setHovered("About")}
           onMouseLeave={() => setHovered(null)}
+          onClick={() => handlePageClick("About")}
         >
-          <img
-            style={styles.pageImage}
-            src={About}
-            alt="About"
-            onClick={() => handlePageIconClick("About")}
-          />
-          <a style={styles.pagesText} href="/about">
-            About
-          </a>
+          <img style={styles.pageImage} src={About} alt="About" />
+          <h style={styles.pagesText}>About</h>
         </div>
         <div
           style={
@@ -103,16 +96,10 @@ export function SideNav() {
           }
           onMouseEnter={() => setHovered("Experience")}
           onMouseLeave={() => setHovered(null)}
+          onClick={() => handlePageClick("Experience")}
         >
-          <img
-            style={styles.pageImage}
-            src={Experience}
-            alt="Experience"
-            onClick={() => handlePageIconClick("Experience")}
-          />
-          <a style={styles.pagesText} href="/experience">
-            Experience
-          </a>
+          <img style={styles.pageImage} src={Experience} alt="Experience" />
+          <h style={styles.pagesText}>Experience</h>
         </div>
         <div
           style={
@@ -120,16 +107,10 @@ export function SideNav() {
           }
           onMouseEnter={() => setHovered("Projects")}
           onMouseLeave={() => setHovered(null)}
+          onClick={() => handlePageClick("Projects")}
         >
-          <img
-            style={styles.pageImage}
-            src={Projects}
-            alt="Projects"
-            onClick={() => handlePageIconClick("Projects")}
-          />
-          <a style={styles.pagesText} href="/projects">
-            Projects
-          </a>
+          <img style={styles.pageImage} src={Projects} alt="Projects" />
+          <h style={styles.pagesText}>Projects</h>
         </div>
       </div>
     </div>
