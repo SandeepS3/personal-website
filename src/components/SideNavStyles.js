@@ -78,21 +78,19 @@ const mediaStyles = {
     fontWeight: "bold",
     color: "white",
     fontSize: "1rem",
-    marginBottom: "-0.8rem",
   },
   socials: {
+    display: "flex",
     flexDirection: "column",
     alignSelf: "center",
-    marginBottom: "5em",
+    marginBottom: "4vh",
   },
   insta: {
-    // marginRight: "2em",
     cursor: "pointer",
     width: "2.5em",
     height: "2.5em",
   },
   github: {
-    // marginRight: "1em",
     cursor: "pointer",
     width: "2.5em",
     height: "2.5em",
@@ -106,7 +104,6 @@ const mediaStyles = {
     display: "flex",
     flexDirection: "column",
     alignSelf: "flex-start",
-    // marginLeft: "1em",
     width: "100%",
   },
   pageItem: {
