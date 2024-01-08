@@ -94,7 +94,7 @@ const mediaStyles = {
   },
 };
 
-const mergedStyles = window.matchMedia("(max-width: 999px)").matches
+const mergedStyles = window.matchMedia("(max-width: 900px)").matches
   ? { ...styles, ...mediaStyles }
   : styles;
 

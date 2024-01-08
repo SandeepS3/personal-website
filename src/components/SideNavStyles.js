@@ -94,8 +94,8 @@ const mediaStyles = {
   github: {
     // marginRight: "1em",
     cursor: "pointer",
-    width: "4em",
-    height: "4em",
+    width: "2.5em",
+    height: "2.5em",
   },
   linkedin: {
     cursor: "pointer",
@@ -131,7 +131,7 @@ const mediaStyles = {
   },
 };
 
-const mergedStyles = window.matchMedia("(max-width: 999px)").matches
+const mergedStyles = window.matchMedia("(max-width: 900px)").matches
   ? { ...styles, ...mediaStyles }
   : styles;
 
