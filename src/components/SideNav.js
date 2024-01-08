@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 // import { useState } from "react";
 import { styles } from "./SideNavStyles";
@@ -11,6 +11,8 @@ export function SideNav() {
   const About = `${process.env.PUBLIC_URL}/images/About.png`;
   const Experience = `${process.env.PUBLIC_URL}/images/Experience.png`;
   const Projects = `${process.env.PUBLIC_URL}/images/Projects.png`;
+
+  const [hovered, setHovered] = useState(null);
 
   const Navigate = useNavigate();
 
@@ -27,7 +29,7 @@ export function SideNav() {
     }
     window.open(websiteURL, "_blank");
   };
-  const handlePageIconClick = (page) => {
+  const handlePageClick = (page) => {
     if (page === "Home") {
       Navigate("/");
     } else if (page === "About") {
@@ -65,49 +67,50 @@ export function SideNav() {
         />
       </div>
       <div style={styles.pages}>
-        <div style={styles.pageItem}>
+        <div
+          style={hovered === "Home" ? styles.pageItemHover : styles.pageItem}
+          onMouseEnter={() => setHovered("Home")}
+          onMouseLeave={() => setHovered(null)}
+          onClick={() => handlePageClick("Home")}
+        >
           <img
             style={styles.pageImage}
             src={Home}
             alt="Home"
-            onClick={() => handlePageIconClick("Home")}
+            // onClick={() => handlePageIconClick("Home")}
           />
-          <a style={styles.pagesText} href="/">
-            Home
-          </a>
+          <h style={styles.pagesText}>Home</h>
         </div>
-        <div style={styles.pageItem}>
-          <img
-            style={styles.pageImage}
-            src={About}
-            alt="About"
-            onClick={() => handlePageIconClick("About")}
-          />
-          <a style={styles.pagesText} href="/about">
-            About
-          </a>
+        <div
+          style={hovered === "About" ? styles.pageItemHover : styles.pageItem}
+          onMouseEnter={() => setHovered("About")}
+          onMouseLeave={() => setHovered(null)}
+          onClick={() => handlePageClick("About")}
+        >
+          <img style={styles.pageImage} src={About} alt="About" />
+          <h style={styles.pagesText}>About</h>
         </div>
-        <div style={styles.pageItem}>
-          <img
-            style={styles.pageImage}
-            src={Experience}
-            alt="Experience"
-            onClick={() => handlePageIconClick("Experience")}
-          />
-          <a style={styles.pagesText} href="/experience">
-            Experience
-          </a>
+        <div
+          style={
+            hovered === "Experience" ? styles.pageItemHover : styles.pageItem
+          }
+          onMouseEnter={() => setHovered("Experience")}
+          onMouseLeave={() => setHovered(null)}
+          onClick={() => handlePageClick("Experience")}
+        >
+          <img style={styles.pageImage} src={Experience} alt="Experience" />
+          <h style={styles.pagesText}>Experience</h>
         </div>
-        <div style={styles.pageItem}>
-          <img
-            style={styles.pageImage}
-            src={Projects}
-            alt="Projects"
-            onClick={() => handlePageIconClick("Projects")}
-          />
-          <a style={styles.pagesText} href="/projects">
-            Projects
-          </a>
+        <div
+          style={
+            hovered === "Projects" ? styles.pageItemHover : styles.pageItem
+          }
+          onMouseEnter={() => setHovered("Projects")}
+          onMouseLeave={() => setHovered(null)}
+          onClick={() => handlePageClick("Projects")}
+        >
+          <img style={styles.pageImage} src={Projects} alt="Projects" />
+          <h style={styles.pagesText}>Projects</h>
         </div>
       </div>
     </div>
