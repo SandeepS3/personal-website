@@ -15,10 +15,10 @@ const styles = {
   boxContainer: {
     display: "flex",
     flex: "1",
-    backgroundColor: "#4A4A4A",
+    backgroundColor: "#646464",
+    minHeight: "100vh",
   },
   pageContainer: {
-    height: "100vh",
     margin: "1vh",
     width: "100%",
   },
