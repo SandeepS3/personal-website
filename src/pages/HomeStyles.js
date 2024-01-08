@@ -34,14 +34,11 @@ const mediaStyles = {
   background: {
     backgroundImage: `url(${process.env.PUBLIC_URL}/images/Beach4.png)`,
     backgroundRepeat: "no-repeat",
-    backgroundPosition: "center",
+    // backgroundPosition: "center center",
     // WebkitBackgroundSize: "cover",
     backgroundSize: "contain",
     minHeight: "100vh",
     borderRadius: "1.25em",
-    display: "flex",
-    alignItems: "center", // Center the content vertically
-    justifyContent: "center",
   },
   info: {
     display: "flex",
