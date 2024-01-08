@@ -171,7 +171,7 @@ const styles = {
   "@media (max-width: 600px)": {
     name: {
       fontWeight: "bold",
-      color: "white",
+      color: "black",
       fontSize: "1rem",
       marginBottom: "-0.8rem",
     },
