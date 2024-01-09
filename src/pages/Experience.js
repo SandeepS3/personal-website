@@ -103,6 +103,7 @@ const styles = {
     flex: 1.5,
     flexDirection: "row",
     marginBottom: "1vh",
+    width: "95%",
   },
   allSkills: {
     display: "flex",
@@ -130,6 +131,7 @@ const styles = {
     backgroundColor: "#D9D9D9",
     borderRadius: "1.25em",
     marginBottom: "2vh",
+    width: "95%",
     boxShadow:
       "0 4px 4px #011B77, 0 4px 4px #011B77,inset 0 4px 4px #011B77, inset 0 0 35px black",
   },
@@ -157,6 +159,7 @@ const styles = {
   experienceBoxes: {
     display: "flex",
     justifyContent: "space-between",
+    width: "95%",
   },
   experiencesBox: {
     backgroundColor: "#D9D9D9",
@@ -179,7 +182,8 @@ const styles = {
     flexDirection: "column",
     justifyContent: "flex-end",
     alignItems: "end",
-    padding: "3vh 2vw",
+    padding: "3vh",
+    width: "95%",
   },
   button: {
     backgroundColor: "#D9D9D9",
