@@ -18,13 +18,9 @@ const mediaStyles = {
     height:
       "calc(100vh - env(safe-area-inset-top) - env(safe-area-inset-bottom))",
     width: "100%",
-    // paddingTop: 'constant(safe-area-inset-top)',
-    // paddingRight: 'constant(safe-area-inset-right)',
-    // paddingBottom: 'constant(safe-area-inset-bottom)',
-    // paddingLeft: 'constant(safe-area-inset-left)',
     padding:
-      "env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left) ",
-    background: "linear-gradient(to top, #060016, #1F1F1F)",
+      "env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left)",
+    background: "linear-gradient(to bottom, #060016, #1F1F1F)", // Changed to "to bottom"
     transition: "background 1s linear",
   },
 };
