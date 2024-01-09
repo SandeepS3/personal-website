@@ -57,7 +57,7 @@ const Experience = () => {
       </div>
       <div style={styles.experiences}>
         <p style={styles.headName}>Experiences</p>
-        <div style={styles.educationBoxes}>
+        <div style={styles.experienceBoxes}>
           <div style={styles.experiencesBox}>
             <h>Area Manager Internship</h>
             <h>FAT1 Amazon, Fresno, CA</h>
@@ -95,13 +95,14 @@ const styles = {
   headName: {
     display: "flex",
     fontFamily: "Black Ops One",
-    fontSize: "5vh",
+    fontSize: "4.5vh",
     color: "white",
     alignItems: "flex-start",
   },
   skills: {
     flex: 1.5,
     flexDirection: "row",
+    marginBottom: "1vh",
   },
   allSkills: {
     display: "flex",
@@ -123,18 +124,14 @@ const styles = {
   },
   education: {
     flex: 1,
-  },
-  educationBoxes: {
-    display: "flex",
-    justifyContent: "space-between",
-    flexWrap: "wrap",
+    marginBottom: "1vh",
   },
   educationBox: {
     backgroundColor: "#D9D9D9",
     borderRadius: "1.25em",
     marginBottom: "2vh",
     boxShadow:
-      "0 4px 4px #011B77, 0 4px 4px #011B77,inset 0 4px 4px #011B77, inset 0 0 15px black",
+      "0 4px 4px #011B77, 0 4px 4px #011B77,inset 0 4px 4px #011B77, inset 0 0 35px black",
   },
   educationTop: {
     display: "flex",
@@ -157,6 +154,10 @@ const styles = {
   experiences: {
     flex: 1.5,
   },
+  experienceBoxes: {
+    display: "flex",
+    justifyContent: "space-between",
+  },
   experiencesBox: {
     backgroundColor: "#D9D9D9",
     borderRadius: "1.25em",
@@ -170,7 +171,7 @@ const styles = {
     alignItems: "center",
     justifyContent: "center",
     boxShadow:
-      "0 4px 4px #580177, 0 4px 4px #580177,inset 0 4px 4px #580177, inset 0 0 15px black",
+      "0 4px 4px #580177, 0 4px 4px #580177,inset 0 4px 4px #580177, inset 0 0 50px black",
   },
   resume: {
     flex: 0.5,
