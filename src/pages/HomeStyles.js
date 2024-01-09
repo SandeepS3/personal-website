@@ -40,6 +40,7 @@ const mediaStyles = {
     // backgroundPosition: "center",
     display: "flex",
     flexDirection: "column",
+    paddingTop: "5vh",
   },
   image: {
     display: "flex",
@@ -51,7 +52,7 @@ const mediaStyles = {
     flexDirection: "column",
     alignItems: "flex-start",
     paddingLeft: "5vw",
-    paddingTop: "5vh",
+    paddingTop: "3vh",
   },
   name: {
     fontFamily: "Acme",
