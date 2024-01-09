@@ -131,7 +131,7 @@ const styles = {
   titleText: {
     color: "white",
     fontFamily: "Black Ops One",
-    fontSize: "33px",
+    fontSize: "4vh",
     paddingRight: "4vw",
   },
   titleButton: {
@@ -140,11 +140,11 @@ const styles = {
     fontFamily: "Bubbler One",
     fontWeight: "bold",
     color: "white",
-    fontSize: "20px",
+    fontSize: "2.5vh",
     border: "none",
     cursor: "pointer",
-    width: "250px",
-    height: "50px",
+    width: "17vw",
+    height: "6vh",
   },
   descriptionBox1: {
     width: "95%",
@@ -179,7 +179,7 @@ const styles = {
 
   descriptionText: {
     fontFamily: "Alegreya",
-    fontSize: "20px",
+    fontSize: "2.5vh",
     textAlign: "left",
   },
 };
