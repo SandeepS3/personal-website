@@ -47,6 +47,7 @@ const Home = () => {
               cursor: "pointer",
               fontSize: "20px",
               color: "#333",
+              padding: "5px", // Add padding to avoid covering text
             }}
           >
             &times;
