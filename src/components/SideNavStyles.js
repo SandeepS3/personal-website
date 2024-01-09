@@ -93,6 +93,7 @@ const mediaStyles = {
     flexDirection: "row",
     padding: "3vh 3vw",
     justifyContent:"space-between",
+    width:"100%",
   },
   name: {
     fontWeight: "bold",
@@ -149,7 +150,7 @@ const mediaStyles = {
   pageImage: {
     width: "wem",
     height: "2em",
-    marginRight: "0.5em",
+    marginRight: "0.25em",
   },
   pagesText: {
     fontFamily: "Genos",
@@ -157,6 +158,7 @@ const mediaStyles = {
     textDecoration: "none",
     fontSize: "2vh",
     color: "white",
+    marginRight:"0.5em",
   },
 };
 
