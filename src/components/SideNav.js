@@ -45,26 +45,28 @@ export function SideNav() {
 
   return (
     <div style={styles.sideNavStyle}>
-      <h style={styles.name}>Sandeep Singh</h>
-      <div style={styles.socials}>
-        <img
-          style={styles.github}
-          src={Github}
-          alt="Github"
-          onClick={() => handleOpenWebsite("Github")}
-        />
-        <img
-          style={styles.insta}
-          src={Instagram}
-          alt="Instagram"
-          onClick={() => handleOpenWebsite("Instagram")}
-        />
-        <img
-          style={styles.linkedin}
-          src={Linkedin}
-          alt="Linkedin"
-          onClick={() => handleOpenWebsite("Linkedin")}
-        />
+      <div>
+        <h style={styles.name}>Sandeep Singh</h>
+        <div style={styles.socials}>
+          <img
+            style={styles.github}
+            src={Github}
+            alt="Github"
+            onClick={() => handleOpenWebsite("Github")}
+          />
+          <img
+            style={styles.insta}
+            src={Instagram}
+            alt="Instagram"
+            onClick={() => handleOpenWebsite("Instagram")}
+          />
+          <img
+            style={styles.linkedin}
+            src={Linkedin}
+            alt="Linkedin"
+            onClick={() => handleOpenWebsite("Linkedin")}
+          />
+        </div>
       </div>
       <div style={styles.pages}>
         <div
