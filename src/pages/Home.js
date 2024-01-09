@@ -2,7 +2,7 @@ import { styles } from "./HomeStyles";
 import { useState, useEffect } from "react";
 
 const Home = () => {
-  const MobileBeach = `${process.env.PUBLIC_URL}/images/.png`;
+  const MobileBeach = `${process.env.PUBLIC_URL}/images/Beach1.png`;
 
   const [isMobile, setIsMobile] = useState(window.innerWidth < 900);
   const [showPopup, setShowPopup] = useState(true);
