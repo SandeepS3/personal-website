@@ -134,7 +134,7 @@ const mediaStyles = {
     alignItems: "center",
     marginRight: "3em",
     cursor: "pointer",
-    flexDirection: "row,
+    flexDirection: "row",
   },
   pageItemHover: {
     display: "flex",
