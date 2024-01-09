@@ -45,7 +45,7 @@ export function SideNav() {
 
   return (
     <div style={styles.sideNavStyle}>
-      <div>
+      <div style={styles.namesocial}>
         <h style={styles.name}>Sandeep Singh</h>
         <div style={styles.socials}>
           <img

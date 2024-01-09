@@ -1,14 +1,12 @@
-import "./App.css";
+import { styles } from "./AppStyle";
 import { BoxContainer } from "./components/BoxContainer";
 import { SideNav } from "./components/SideNav";
 
 function App() {
   return (
-    <div className="App">
-      <div className="content">
-        <SideNav />
-        <BoxContainer />
-      </div>
+    <div style={styles.content}>
+      <SideNav />
+      <BoxContainer />
     </div>
   );
 }
