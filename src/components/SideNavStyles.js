@@ -9,7 +9,7 @@ const styles = {
   namesocial: {
     display: "flex",
     flexDirection: "column",
-    width:"100%",
+    width: "100%",
   },
   name: {
     alignItems: "center",
@@ -83,27 +83,27 @@ const mediaStyles = {
   sideNavStyle: {
     display: "flex",
     flexDirection: "column",
-    alignItems:"center",
+    alignItems: "center",
     width: "100%",
   },
   namesocial: {
     display: "flex",
     flexDirection: "row",
     padding: "3vh 3vw",
-    justifyContent:"space-between",
-    width:"100%",
+    justifyContent: "space-between",
+    width: "100%",
   },
   name: {
     fontWeight: "bold",
     color: "white",
     fontSize: "1.5rem",
-    paddingLeft:"2vw",
+    paddingLeft: "2vw",
   },
   socials: {
     display: "flex",
     flexDirection: "row",
     alignSelf: "center",
-    marginRight: "0.5vw",
+    marginRight: "1vw",
   },
   insta: {
     cursor: "pointer",
@@ -127,7 +127,7 @@ const mediaStyles = {
     justifyContent: "space-evenly",
     // alignItems: "center",
     width: "90%",
-    backgroundColor:"#060016",
+    backgroundColor: "#060016",
   },
   pageItem: {
     paddingTop: "0.5vh",
@@ -154,7 +154,7 @@ const mediaStyles = {
     textDecoration: "none",
     fontSize: "1.8vh",
     color: "white",
-    marginRight:"0.5em",
+    marginRight: "0.5em",
   },
 };
 
