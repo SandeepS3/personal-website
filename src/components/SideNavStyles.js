@@ -82,14 +82,15 @@ const mediaStyles = {
   sideNavStyle: {
     display: "flex",
     flexDirection: "column",
-    // width: "100%",
+    width: "100%",
     // backgroundColor: "#646464",
     // paddingTop: "5.5em",
   },
   namesocial: {
     display: "flex",
     flexDirection: "row",
-    padding: "1vh 1vw",
+    padding: "3vh 3vw",
+    backgroundColor: "blue",
   },
   name: {
     fontWeight: "bold",
@@ -121,7 +122,9 @@ const mediaStyles = {
     display: "flex",
     flexDirection: "row",
     alignSelf: "center",
-    width: "100%",
+    justifyContent: "space-evenly",
+    width: "80%",
+    backgroundColor: "red",
   },
   pageItem: {
     display: "flex",
