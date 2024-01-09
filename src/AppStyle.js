@@ -11,9 +11,9 @@ const styles = {
 };
 
 const mediaStyles = {
-  flexDirection: "column",
   textAlign: "center",
   display: "flex",
+  flexDirection: "column",
   height: "100%",
   width: "100%",
   background: "linear-gradient(to top, #060016, #1F1F1F)",
