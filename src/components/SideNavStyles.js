@@ -89,6 +89,7 @@ const mediaStyles = {
   namesocial: {
     display: "flex",
     flexDirection: "row",
+    padding: "1vh 1vw",
   },
   name: {
     fontWeight: "bold",
@@ -97,7 +98,7 @@ const mediaStyles = {
   },
   socials: {
     display: "flex",
-    flexDirection: "column",
+    flexDirection: "row",
     alignSelf: "center",
     marginBottom: "4vh",
   },
@@ -118,8 +119,8 @@ const mediaStyles = {
   },
   pages: {
     display: "flex",
-    flexDirection: "column",
-    alignSelf: "flex-start",
+    flexDirection: "row",
+    alignSelf: "center",
     width: "100%",
   },
   pageItem: {
@@ -128,7 +129,7 @@ const mediaStyles = {
     paddingTop: "0.5vh",
     paddingBottom: "0.5vh",
     alignItems: "center",
-    marginBottom: "4em",
+    marginRight: "3em",
     cursor: "pointer",
     flexDirection: "column",
   },
@@ -138,7 +139,7 @@ const mediaStyles = {
     paddingTop: "0.5vh",
     paddingBottom: "0.5vh",
     alignItems: "center",
-    marginBottom: "4em",
+    marginRight: "3em",
     cursor: "pointer",
     flexDirection: "column",
   },
