@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 
 const Home = () => {
   const [isMobile, setIsMobile] = useState(window.innerWidth < 900);
+  const [showPopup, setShowPopup] = useState(true);
 
   useEffect(() => {
     const handleResize = () => {
@@ -14,23 +15,43 @@ const Home = () => {
     };
   }, []);
 
+  const closePopup = () => {
+    setShowPopup(false);
+  };
+
   const Popup = () => (
     <div>
-      {isMobile && (
+      {isMobile && showPopup && (
         <div
           style={{
-            display: "flex",
-            flexDirection: "column",
-            alignItems: "center",
-            justifyContent: "center",
+            position: "fixed",
+            top: "50%",
+            left: "50%",
+            transform: "translate(-50%, -50%)",
             backgroundColor: "#ffffff",
             padding: "20px",
             borderRadius: "10px",
             boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)",
-            margin: "20px",
+            zIndex: 999,
+            textAlign: "center",
           }}
         >
-          <p style={{ fontSize: "16px", textAlign: "center", margin: "0" }}>
+          <button
+            onClick={closePopup}
+            style={{
+              position: "absolute",
+              top: "10px",
+              right: "10px",
+              background: "none",
+              border: "none",
+              cursor: "pointer",
+              fontSize: "20px",
+              color: "#333",
+            }}
+          >
+            &times;
+          </button>
+          <p style={{ fontSize: "16px", margin: "0" }}>
             Welcome! The view for mobile devices is still being worked on. For
             optimal view, use a larger device! Thank you!
           </p>
@@ -38,6 +59,7 @@ const Home = () => {
       )}
     </div>
   );
+
   return (
     <div style={styles.background}>
       <Popup />
