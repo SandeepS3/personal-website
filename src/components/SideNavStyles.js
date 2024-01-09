@@ -3,12 +3,12 @@ const styles = {
     display: "flex",
     flexDirection: "column",
     width: "25vw",
-    backgroundColor: "#646464",
+    // backgroundColor: "#646464",
     paddingTop: "5.5em",
   },
   name: {
     alignItems: "center",
-    fontWeight: "bold",
+    // fontWeight: "bold",
     color: "white",
     fontSize: "5.5vh",
   },
@@ -66,9 +66,10 @@ const styles = {
     marginRight: "0.5em",
   },
   pagesText: {
-    fontWeight: "bold",
+    fontFamily: "Genos",
+    // fontWeight: "bold",
     textDecoration: "none",
-    fontSize: "1rem",
+    fontSize: "2.5vh",
     color: "white",
   },
 };

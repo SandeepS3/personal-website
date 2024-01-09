@@ -7,5 +7,7 @@
 .content {
   text-align: center;
   display: flex;
-  flex-direction: row
+  flex-direction: row;
+  background: linear-gradient(to left, #060016, #1F1F1F);
+  transition: background 1s linear;
 }
