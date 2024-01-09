@@ -129,6 +129,7 @@ const mediaStyles = {
     justifyContent: "space-evenly",
     // alignItems: "center",
     width: "90%",
+    backgroundColor:"#1F1F1F",
   },
   pageItem: {
     paddingTop: "0.5vh",
@@ -148,15 +149,15 @@ const mediaStyles = {
     flexDirection: "column",
   },
   pageImage: {
-    width: "wem",
-    height: "2em",
+    width: "1.75em",
+    height: "1.75em",
     marginRight: "0.25em",
   },
   pagesText: {
     fontFamily: "Genos",
     // fontWeight: "bold",
     textDecoration: "none",
-    fontSize: "2vh",
+    fontSize: "1.8vh",
     color: "white",
     marginRight:"0.5em",
   },
