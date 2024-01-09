@@ -85,8 +85,6 @@ const mediaStyles = {
     flexDirection: "column",
     alignItems:"center",
     width: "100%",
-    // backgroundColor: "#646464",
-    paddingBottom: "4em",
   },
   namesocial: {
     display: "flex",
@@ -139,14 +137,11 @@ const mediaStyles = {
     flexDirection: "row",
   },
   pageItemHover: {
-    display: "flex",
-    paddingLeft: "1.5vw",
     paddingTop: "0.5vh",
     paddingBottom: "0.5vh",
     alignItems: "center",
-    marginRight: "3em",
     cursor: "pointer",
-    flexDirection: "column",
+    flexDirection: "row",
   },
   pageImage: {
     width: "1.75em",
