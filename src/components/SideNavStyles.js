@@ -95,7 +95,8 @@ const mediaStyles = {
   name: {
     fontWeight: "bold",
     color: "white",
-    fontSize: "1rem",
+    fontSize: "5rem",
+    marginRight: "1vw",
   },
   socials: {
     display: "flex",
@@ -105,25 +106,26 @@ const mediaStyles = {
   },
   insta: {
     cursor: "pointer",
-    width: "2.5em",
-    height: "2.5em",
+    width: "1.5em",
+    height: "1.5em",
   },
   github: {
     cursor: "pointer",
-    width: "2.5em",
-    height: "2.5em",
+    width: "1.5em",
+    height: "1.5em",
   },
   linkedin: {
     cursor: "pointer",
-    width: "2.5em",
-    height: "2.5em",
+    width: "1.5em",
+    height: "1.5em",
   },
   pages: {
     display: "flex",
     flexDirection: "row",
-    alignSelf: "center",
+    // alignSelf: "center",
     justifyContent: "space-evenly",
-    width: "80%",
+    // alignItems: "center",
+    // width: "80%",
     backgroundColor: "red",
   },
   pageItem: {
