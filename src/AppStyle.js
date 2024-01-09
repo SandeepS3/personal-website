@@ -15,12 +15,11 @@ const mediaStyles = {
     textAlign: "center",
     display: "flex",
     flexDirection: "column",
-    height:
-      "calc(100vh - env(safe-area-inset-top) - env(safe-area-inset-bottom))",
+    height: "100%",
     width: "100%",
     padding:
       "env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left)",
-    background: "linear-gradient(to bottom, #060016, #1F1F1F)", // Changed to "to bottom"
+    background: "linear-gradient(to top, #060016, #1F1F1F)",
     transition: "background 1s linear",
   },
 };
