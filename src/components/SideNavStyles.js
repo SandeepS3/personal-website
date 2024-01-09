@@ -133,7 +133,6 @@ const mediaStyles = {
     paddingTop: "0.5vh",
     paddingBottom: "0.5vh",
     alignItems: "center",
-    marginRight: "3em",
     cursor: "pointer",
     flexDirection: "row",
   },
