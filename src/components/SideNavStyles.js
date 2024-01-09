@@ -9,6 +9,7 @@ const styles = {
   namesocial: {
     display: "flex",
     flexDirection: "column",
+    width:"100%",
   },
   name: {
     alignItems: "center",
@@ -91,7 +92,6 @@ const mediaStyles = {
     display: "flex",
     flexDirection: "row",
     padding: "3vh 3vw",
-    backgroundColor: "blue",
     justifyContent:"space-between",
   },
   name: {
@@ -127,8 +127,7 @@ const mediaStyles = {
     // alignSelf: "center",
     justifyContent: "space-evenly",
     // alignItems: "center",
-    width: "80%",
-    backgroundColor: "red",
+    width: "90%",
   },
   pageItem: {
     paddingTop: "0.5vh",
