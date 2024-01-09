@@ -11,13 +11,15 @@ const styles = {
 };
 
 const mediaStyles = {
-  textAlign: "center",
-  display: "flex",
-  flexDirection: "column",
-  height: "100%",
-  width: "100%",
-  background: "linear-gradient(to top, #060016, #1F1F1F)",
-  transition: "background 1s linear",
+  content: {
+    textAlign: "center",
+    display: "flex",
+    flexDirection: "column",
+    height: "100%",
+    width: "100%",
+    background: "linear-gradient(to top, #060016, #1F1F1F)",
+    transition: "background 1s linear",
+  },
 };
 
 const mergedStyles = window.matchMedia("(max-width: 900px)").matches

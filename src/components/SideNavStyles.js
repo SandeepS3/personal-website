@@ -85,7 +85,6 @@ const mediaStyles = {
     // width: "100%",
     // backgroundColor: "#646464",
     // paddingTop: "5.5em",
-    backgroundColor: "pink",
   },
   namesocial: {
     display: "flex",
