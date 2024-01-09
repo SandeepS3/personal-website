@@ -40,14 +40,14 @@ const Home = () => {
             onClick={closePopup}
             style={{
               position: "absolute",
-              top: "10px",
-              right: "10px",
+              top: "5px", // Adjusted position
+              right: "5px", // Adjusted position
               background: "none",
               border: "none",
               cursor: "pointer",
               fontSize: "20px",
               color: "#333",
-              padding: "5px", // Add padding to avoid covering text
+              padding: "5px",
             }}
           >
             &times;
