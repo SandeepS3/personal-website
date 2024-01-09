@@ -86,7 +86,7 @@ const mediaStyles = {
     alignItems:"center",
     width: "100%",
     // backgroundColor: "#646464",
-    // paddingTop: "5.5em",
+    paddingBottom: "4em",
   },
   namesocial: {
     display: "flex",
@@ -129,7 +129,7 @@ const mediaStyles = {
     justifyContent: "space-evenly",
     // alignItems: "center",
     width: "90%",
-    backgroundColor:"#1F1F1F",
+    backgroundColor:"#060016",
   },
   pageItem: {
     paddingTop: "0.5vh",
