@@ -2,6 +2,8 @@ import { styles } from "./HomeStyles";
 import { useState, useEffect } from "react";
 
 const Home = () => {
+  const MobileBeach = `${process.env.PUBLIC_URL}/images/.png`;
+
   const [isMobile, setIsMobile] = useState(window.innerWidth < 900);
   const [showPopup, setShowPopup] = useState(true);
 
@@ -64,6 +66,9 @@ const Home = () => {
   return (
     <div style={styles.background}>
       <Popup />
+      {isMobile && (
+        <img style={styles.image} src={MobileBeach} alt="MobileBeach" />
+      )}
       <div style={styles.info}>
         <h style={styles.name}>Sandeep Singh</h>
         <h style={styles.title}>Software Developer!</h>
