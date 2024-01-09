@@ -82,6 +82,7 @@ const mediaStyles = {
   sideNavStyle: {
     display: "flex",
     flexDirection: "column",
+    alignItems:"center",
     width: "100%",
     // backgroundColor: "#646464",
     // paddingTop: "5.5em",
