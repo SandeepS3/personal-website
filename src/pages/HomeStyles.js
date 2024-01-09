@@ -43,9 +43,10 @@ const mediaStyles = {
     paddingTop: "5vh",
   },
   image: {
-    // display: "flex",
-    width: "200px", // Set a fixed width
-    height: "200px",
+    display: "flex",
+    width: "500px", // Set a fixed width
+    height: "500px",
+    objectFit: "cover",
     alignItems: "center",
     justifyContent: "center",
   },
