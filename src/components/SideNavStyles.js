@@ -95,7 +95,7 @@ const mediaStyles = {
   name: {
     fontWeight: "bold",
     color: "white",
-    fontSize: "5rem",
+    fontSize: "2.5rem",
     marginRight: "1vw",
   },
   socials: {
@@ -147,6 +147,18 @@ const mediaStyles = {
     marginRight: "3em",
     cursor: "pointer",
     flexDirection: "column",
+  },
+  pageImage: {
+    width: "1.5em",
+    height: "1.5em",
+    marginRight: "0.5em",
+  },
+  pagesText: {
+    fontFamily: "Genos",
+    // fontWeight: "bold",
+    textDecoration: "none",
+    fontSize: "1.5vh",
+    color: "white",
   },
 };
 
