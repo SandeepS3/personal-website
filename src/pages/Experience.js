@@ -10,35 +10,31 @@ const Experience = () => {
     "Python",
     "Java",
   ];
-  // Filter skills for the top row (first 5)
-  const topRowSkills = skills.slice(0, 5);
+  const Download = `${process.env.PUBLIC_URL}/images/Download.png`;
 
-  // Filter skills for the second row (remaining 4)
+  const topRowSkills = skills.slice(0, 5);
   const bottomRowSkills = skills.slice(5);
+
+  const downloadPDF = () => {
+    const pdfFilePath = process.env.PUBLIC_URL + "/My Resume.pdf";
+
+    const link = document.createElement("a");
+    link.href = pdfFilePath;
+    link.download = `Sandeep's Resume`;
+    link.click();
+  };
   return (
     <div style={styles.container}>
       <div style={styles.skills}>
         <p style={styles.headName}>Skills</p>
-        <div
-          style={{
-            display: "flex",
-            justifyContent: "space-around",
-            flexWrap: "wrap",
-          }}
-        >
+        <div style={styles.allSkills}>
           {topRowSkills.map((skill, index) => (
             <p style={styles.skillbox} key={index}>
               {skill}
             </p>
           ))}
         </div>
-        <div
-          style={{
-            display: "flex",
-            justifyContent: "space-around",
-            flexWrap: "wrap",
-          }}
-        >
+        <div style={styles.allSkills}>
           {bottomRowSkills.map((skill, index) => (
             <p style={styles.skillbox} key={index + 5}>
               {skill}
@@ -50,17 +46,40 @@ const Experience = () => {
         <p style={styles.headName}>Education</p>
         <div style={styles.educationBox}>
           <div style={styles.educationTop}>
-            <p>NJIT, NEW JERESY INSTITUTE OF TECHNOLOGY</p>
-            <p> NEWARK, NJ</p>
+            <h>NJIT, NEW JERESY INSTITUTE OF TECHNOLOGY</h>
+            <h> NEWARK, NJ</h>
           </div>
           <div style={styles.educationBottom}>
-            <p>Expected Graduation: December 2024</p>
-            <p>B.A. in Computer Science</p>
+            <h>Expected Graduation: December 2024</h>
+            <h>B.A. in Computer Science</h>
           </div>
         </div>
       </div>
-      <div style={styles.experiences}>Experiences</div>
-      <div style={styles.resume}>Resume</div>
+      <div style={styles.experiences}>
+        <p style={styles.headName}>Experiences</p>
+        <div style={styles.educationBoxes}>
+          <div style={styles.experiencesBox}>
+            <h>Area Manager Internship</h>
+            <h>FAT1 Amazon, Fresno, CA</h>
+            <h>June 2023 - August 2023</h>
+          </div>
+          <div style={styles.experiencesBox}>
+            <h>Sortation Assoicate</h>
+            <h>EWR8 Amazon, Teterboro, NJ</h>
+            <h>August 2022 - Present</h>
+          </div>
+        </div>
+      </div>
+      <div style={styles.resume}>
+        <button style={styles.button} onClick={() => downloadPDF()}>
+          Resume
+          <img
+            style={{ width: "30px", height: "30px" }}
+            src={Download}
+            alt="Download"
+          />
+        </button>
+      </div>
     </div>
   );
 };
@@ -69,7 +88,6 @@ export default Experience;
 const styles = {
   container: {
     display: "flex",
-    // backgroundColor: "#4A4A4A",
     flexDirection: "column",
     borderRadius: "1.25em",
     height: "100%",
@@ -84,6 +102,11 @@ const styles = {
   skills: {
     flex: 1.5,
     flexDirection: "row",
+  },
+  allSkills: {
+    display: "flex",
+    justifyContent: "space-around",
+    flexWrap: "wrap",
   },
   skillbox: {
     backgroundColor: "#D9D9D9",
@@ -101,11 +124,17 @@ const styles = {
   education: {
     flex: 1,
   },
+  educationBoxes: {
+    display: "flex",
+    justifyContent: "space-between",
+    flexWrap: "wrap",
+  },
   educationBox: {
     backgroundColor: "#D9D9D9",
     borderRadius: "1.25em",
+    marginBottom: "2vh",
     boxShadow:
-      "0 4px 4px #011B77, 0 4px 4px #011B77,inset 0 4px 4px #011B77, inset 0 0 30px black",
+      "0 4px 4px #011B77, 0 4px 4px #011B77,inset 0 4px 4px #011B77, inset 0 0 15px black",
   },
   educationTop: {
     display: "flex",
@@ -114,8 +143,8 @@ const styles = {
     flexDirection: "row",
     justifyContent: "space-between",
     padding: "1vw",
-    paddingTop: "3vh",
-    marginBottom: "-5vh",
+    paddingTop: "1vh",
+    marginBottom: "-4vh",
   },
   educationBottom: {
     fontFamily: "Alegreya",
@@ -126,11 +155,41 @@ const styles = {
     padding: "1vw",
   },
   experiences: {
-    // backgroundColor: "red",
     flex: 1.5,
   },
+  experiencesBox: {
+    backgroundColor: "#D9D9D9",
+    borderRadius: "1.25em",
+    fontFamily: "Kavivanar",
+    // textShadow: "1px 1px 2px #580177",
+    fontWeight: "bold",
+    fontSize: "20px",
+    width: "420px",
+    height: "150px",
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+    justifyContent: "center",
+    boxShadow:
+      "0 4px 4px #580177, 0 4px 4px #580177,inset 0 4px 4px #580177, inset 0 0 15px black",
+  },
   resume: {
-    backgroundColor: "pink",
     flex: 0.5,
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "flex-end",
+    alignItems: "end",
+    padding: "3vh 2vw",
+  },
+  button: {
+    backgroundColor: "#D9D9D9",
+    borderRadius: "1.25em",
+    boxShadow:
+      "0 2px 2px pink, 0 2px 2px pink,inset 0 2px 2px pink, inset 0 0 15px black",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    width: "150px",
+    height: "50px",
   },
 };
