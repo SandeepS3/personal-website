@@ -44,9 +44,9 @@ const mediaStyles = {
   },
   image: {
     display: "flex",
-    width: "500px", // Set a fixed width
-    height: "500px",
-    objectFit: "cover",
+    width: "300px", // Set a fixed width
+    height: "300px",
+    // objectFit: "cover",
     alignItems: "center",
     justifyContent: "center",
   },
