@@ -44,11 +44,12 @@ const mediaStyles = {
   },
   image: {
     display: "flex",
-    width: "300px", // Set a fixed width
-    height: "300px",
-    // objectFit: "cover",
-    alignItems: "center",
-    justifyContent: "center",
+    width: "325px", // Set a fixed width
+    height: "325px",
+    position: "absolute",
+    top: "50%",
+    left: "50%",
+    transform: "translate(-50%, -50%)",
   },
   info: {
     display: "flex",
