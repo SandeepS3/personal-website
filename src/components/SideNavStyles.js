@@ -92,12 +92,13 @@ const mediaStyles = {
     flexDirection: "row",
     padding: "3vh 3vw",
     backgroundColor: "blue",
+    justifyContent:"space-between",
   },
   name: {
     fontWeight: "bold",
     color: "white",
     fontSize: "1.5rem",
-    marginRight: "1vw",
+    paddingLeft:"2vw",
   },
   socials: {
     display: "flex",
@@ -147,15 +148,15 @@ const mediaStyles = {
     flexDirection: "column",
   },
   pageImage: {
-    width: "1.5em",
-    height: "1.5em",
+    width: "wem",
+    height: "2em",
     marginRight: "0.5em",
   },
   pagesText: {
     fontFamily: "Genos",
     // fontWeight: "bold",
     textDecoration: "none",
-    fontSize: "1.5vh",
+    fontSize: "2vh",
     color: "white",
   },
 };
