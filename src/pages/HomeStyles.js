@@ -37,6 +37,8 @@ const mediaStyles = {
     backgroundSize: "contain",
     minHeight: "100vh",
     borderRadius: "1.25em",
+    backgroundPosition: "center",
+    paddingTop: "5vh",
   },
   info: {
     display: "flex",
