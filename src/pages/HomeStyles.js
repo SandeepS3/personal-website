@@ -32,14 +32,16 @@ const styles = {
 
 const mediaStyles = {
   background: {
-    backgroundImage: `url(${process.env.PUBLIC_URL}/images/Beach1.png)`,
-    backgroundRepeat: "no-repeat",
-    backgroundSize: "contain",
-    minHeight: "100vh",
-    borderRadius: "1.25em",
-    backgroundPosition: "center",
-    paddingTop: "5vh",
+    // backgroundImage: `url(${process.env.PUBLIC_URL}/images/Beach1.png)`,
+    // backgroundRepeat: "no-repeat",
+    // backgroundSize: "contain",
+    // minHeight: "100vh",
+    // borderRadius: "1.25em",
+    // backgroundPosition: "center",
+    display: "flex",
+    flexDirection: "column",
   },
+  image: {},
   info: {
     display: "flex",
     flexDirection: "column",
