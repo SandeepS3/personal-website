@@ -15,7 +15,7 @@ const styles = {
   boxContainer: {
     display: "flex",
     flex: "1",
-    backgroundColor: "#646464",
+    // backgroundColor: "#646464",
     minHeight: "100vh",
   },
   pageContainer: {

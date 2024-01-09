@@ -1,7 +1,7 @@
 const styles = {
   container: {
     display: "flex",
-    backgroundColor: "#4A4A4A",
+    // backgroundColor: "#4A4A4A",
     flexDirection: "column",
     borderRadius: "1.25em",
     height: "100%",
@@ -33,18 +33,18 @@ const styles = {
     justifyContent: "center",
   },
   aboutText: {
-    color: "black",
+    color: "white",
     fontFamily: "Regular",
     fontSize: "4vh",
     padding: "3vh",
     margin: "2vw",
-    textShadow: "0.125rem 0.125rem 0.25rem rgba(255, 255, 255, 0.8)",
-    backgroundColor: "#646464",
+    textShadow: "0.125rem 0.125rem 0.25rem rgba(0, 0, 0, 0.8)",
+    backgroundColor: "#181521",
     borderRadius: "1.25em",
   },
   imageBox: {
     padding: "1vh",
-    backgroundColor: "#646464",
+    backgroundColor: "#181521",
     borderRadius: "1.25em",
   },
   image: {
