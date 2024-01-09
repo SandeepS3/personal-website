@@ -95,14 +95,14 @@ const mediaStyles = {
   name: {
     fontWeight: "bold",
     color: "white",
-    fontSize: "2.5rem",
+    fontSize: "1.5rem",
     marginRight: "1vw",
   },
   socials: {
     display: "flex",
     flexDirection: "row",
     alignSelf: "center",
-    marginBottom: "4vh",
+    marginRight: "0.5vw",
   },
   insta: {
     cursor: "pointer",
@@ -136,7 +136,7 @@ const mediaStyles = {
     alignItems: "center",
     marginRight: "3em",
     cursor: "pointer",
-    flexDirection: "column",
+    flexDirection: "row",
   },
   pageItemHover: {
     display: "flex",
