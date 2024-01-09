@@ -83,7 +83,7 @@ const mediaStyles = {
   socials: {
     display: "flex",
     flexDirection: "column",
-    alignSelf: "center",
+    alignItems: "center",
     marginBottom: "4vh",
   },
   insta: {
