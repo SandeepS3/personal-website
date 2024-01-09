@@ -41,13 +41,17 @@ const mediaStyles = {
     display: "flex",
     flexDirection: "column",
   },
-  image: {},
+  image: {
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+  },
   info: {
     display: "flex",
     flexDirection: "column",
     alignItems: "flex-start",
     paddingLeft: "5vw",
-    paddingTop: "50vh",
+    paddingTop: "5vh",
   },
   name: {
     fontFamily: "Acme",
