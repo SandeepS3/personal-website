@@ -87,7 +87,6 @@ const mediaStyles = {
   aboutMe: {
     display: "flex",
     flexDirection: "column",
-    alignItems: "flex-start",
   },
   rightHalf: {
     flex: 1,
@@ -97,8 +96,8 @@ const mediaStyles = {
   leftHalf: {
     flex: 1,
     display: "flex",
-
-    width: "80%",
+    width: "90%",
+    alignItems: "flex-start",
   },
   image: {
     width: "35vw",
