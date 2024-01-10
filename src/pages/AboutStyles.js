@@ -77,8 +77,9 @@ const mediaStyles = {
     color: "white",
     fontFamily: "Regular",
     fontSize: "3vh",
-    padding: "8vh",
-    margin: "2vw",
+    paddingTop: "8vh",
+    paddingBottom: "8vh",
+    // margin: "2vw",
     textShadow: "0.125rem 0.125rem 0.25rem rgba(0, 0, 0, 0.8)",
     backgroundColor: "#181521",
     borderRadius: "1.25em",
@@ -86,7 +87,7 @@ const mediaStyles = {
   aboutMe: {
     display: "flex",
     flexDirection: "column",
-    alignItems: "flex-start",
+    alignItems: "flex-end",
   },
   leftHalf: {
     flex: 1,
