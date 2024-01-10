@@ -46,6 +46,7 @@ const mediaStyles = {
     display: "flex",
     flexDirection: "column",
     alignItems: "flex-start",
+    width: "100%",
     paddingLeft: "5vw",
     paddingTop: "3vh",
   },

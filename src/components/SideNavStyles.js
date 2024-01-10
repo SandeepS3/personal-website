@@ -103,17 +103,18 @@ const mediaStyles = {
     display: "flex",
     flexDirection: "row",
     alignSelf: "center",
-    marginRight: "1vw",
   },
   insta: {
     cursor: "pointer",
     width: "1.5em",
     height: "1.5em",
+    marginRight: "1vw",
   },
   github: {
     cursor: "pointer",
     width: "1.5em",
     height: "1.5em",
+    marginRight: "1vw",
   },
   linkedin: {
     cursor: "pointer",
