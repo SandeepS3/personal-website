@@ -1,5 +1,4 @@
 import { styles } from "./HomeStyles";
-import { useState } from "react";
 
 const Home = () => {
   const MobileBeach = `${process.env.PUBLIC_URL}/images/MobileBeach.png`;
