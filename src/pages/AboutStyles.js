@@ -79,7 +79,8 @@ const mediaStyles = {
     fontSize: "3vh",
     paddingTop: "8vh",
     paddingBottom: "8vh",
-    margin: "3vw",
+    paddingLeft: "3vw",
+    paddingRight: "3vw",
     textShadow: "0.125rem 0.125rem 0.25rem rgba(0, 0, 0, 0.8)",
     backgroundColor: "#181521",
     borderRadius: "1.25em",
@@ -91,7 +92,7 @@ const mediaStyles = {
   rightHalf: {
     flex: 1,
     display: "flex",
-    justifyContent: "center",
+    justifyContent: "flex-end",
   },
   leftHalf: {
     flex: 1,
@@ -109,7 +110,7 @@ const mediaStyles = {
     backgroundColor: "#181521",
     borderRadius: "1.25em",
     marginTop: "-6vh",
-    marginLeft: "1vw",
+    marginLeft: "3vw",
   },
 };
 
