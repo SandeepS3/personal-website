@@ -154,7 +154,6 @@ const mediaStyles = {
   educationBox: {
     backgroundColor: "#D9D9D9",
     borderRadius: "1.25em",
-    marginBottom: "2vh",
     width: "95%",
     boxShadow:
       "0 4px 4px #011B77, 0 4px 4px #011B77,inset 0 4px 4px #011B77, inset 0 0 35px black",
@@ -189,7 +188,7 @@ const mediaStyles = {
     fontWeight: "bold",
     fontSize: "1.5vh",
     width: "50vw",
-    height: "19vh",
+    height: "15vh",
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
@@ -202,15 +201,25 @@ const mediaStyles = {
     borderRadius: "1.25em",
     fontFamily: "Kavivanar",
     fontWeight: "bold",
-    fontSize: "1.5vh",
+    fontSize: "1.8vh",
     width: "50vw",
-    height: "19vh",
+    height: "15vh",
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
     justifyContent: "center",
     boxShadow:
       "0 4px 4px #580177, 0 4px 4px #580177,inset 0 4px 4px #580177, inset 0 0 50px black",
+  },
+  experienceLeft: {
+    display: "flex",
+    justifyContent: "flex-start",
+    marginBottom: "3vh",
+  },
+  experienceRight: {
+    display: "flex",
+    justifyContent: "flex-end",
+    marginBottom: "3vh",
   },
 };
 
