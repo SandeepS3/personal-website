@@ -2,7 +2,7 @@ import { styles } from "./HomeStyles";
 import { useState } from "react";
 
 const Home = () => {
-  const MobileBeach = `${process.env.PUBLIC_URL}/images/Beach1.png`;
+  const MobileBeach = `${process.env.PUBLIC_URL}/images/MobileBeach.png`;
 
   // const [isMobile, setIsMobile] = useState(window.innerWidth < 900);
   const isMobile = window.innerWidth < 900;

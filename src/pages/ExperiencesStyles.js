@@ -116,15 +116,22 @@ const styles = {
     width: "95%",
   },
   button: {
-    backgroundColor: "#D9D9D9",
+    backgroundColor: "#1E1E1E",
+    color: "white",
     borderRadius: "1.25em",
     boxShadow:
-      "0 2px 2px pink, 0 2px 2px pink,inset 0 2px 2px pink, inset 0 0 15px black",
+      "0 2px 2px black, 0 2px 2px black,inset 0 2px 2px black, inset 0 0 10px black",
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
     width: "10vw",
     height: "6vh",
+    outline: "none",
+  },
+  download: {
+    marginLeft: "0.5vw",
+    width: "10px",
+    height: "10px",
   },
 };
 
@@ -238,14 +245,20 @@ const mediaStyles = {
   button: {
     backgroundColor: "#1E1E1E",
     color: "white",
+    fontSize: "3vh",
     borderRadius: "1em",
     boxShadow:
-      "0 2px 2px pink, 0 2px 2px pink,inset 0 2px 2px pink, inset 0 0 15px black",
+      "0 2px 2px black, 0 2px 2px black,inset 0 2px 2px black, inset 0 0 10px black",
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
-    width: "20vw",
+    width: "25vw",
     height: "7vh",
+  },
+  download: {
+    marginLeft: "0.5vw",
+    width: "8px",
+    height: "8px",
   },
 };
 

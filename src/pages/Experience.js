@@ -79,11 +79,7 @@ const Experience = () => {
       <div style={styles.resume}>
         <button style={styles.button} onClick={() => downloadPDF()}>
           Resume
-          <img
-            style={{ width: "30px", height: "30px" }}
-            src={Download}
-            alt="Download"
-          />
+          <img style={styles.download} src={Download} alt="Download" />
         </button>
       </div>
     </div>
