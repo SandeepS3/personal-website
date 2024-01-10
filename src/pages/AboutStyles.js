@@ -93,12 +93,12 @@ const mediaStyles = {
     flex: 1,
     display: "flex",
     justifyContent: "center",
-    width: "80%",
   },
   leftHalf: {
     flex: 1,
     display: "flex",
     alignItems: "flex-end",
+    width: "80%",
   },
   image: {
     width: "35vw",
