@@ -87,8 +87,7 @@ const mediaStyles = {
   titleText: {
     color: "white",
     fontFamily: "Black Ops One",
-    fontSize: "2.8vh",
-    marginLeft: "1vw",
+    fontSize: "2.5vh",
   },
   titleButton: {
     display: "flex",
@@ -108,11 +107,13 @@ const mediaStyles = {
   titleRight: {
     display: "flex",
     justifyContent: "flex-start",
-    paddingBottom: "0.5vh",
+    marginLeft: "1vw",
   },
   titleLeft: {
     display: "flex",
     justifyContent: "flex-end",
+    paddingBottom: "0.5vh",
+    marginLeft: "1vw",
   },
   descriptionBox1: {
     width: "100%",
