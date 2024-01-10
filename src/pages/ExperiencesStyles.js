@@ -240,7 +240,7 @@ const mediaStyles = {
     justifyContent: "flex-end",
     alignItems: "end",
     padding: "3vh",
-    width: "%",
+    width: "100%",
   },
   button: {
     backgroundColor: "#1E1E1E",
