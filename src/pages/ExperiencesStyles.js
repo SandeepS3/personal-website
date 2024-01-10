@@ -226,6 +226,27 @@ const mediaStyles = {
     justifyContent: "flex-end",
     marginBottom: "3vh",
   },
+  resume: {
+    flex: 0.5,
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "flex-end",
+    alignItems: "end",
+    padding: "3vh",
+    width: "95%",
+  },
+  button: {
+    backgroundColor: "#1E1E1E",
+    color: "white",
+    borderRadius: "1em",
+    boxShadow:
+      "0 2px 2px pink, 0 2px 2px pink,inset 0 2px 2px pink, inset 0 0 15px black",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    width: "20vw",
+    height: "7vh",
+  },
 };
 
 const mergedStyles = window.matchMedia("(max-width: 900px)").matches
