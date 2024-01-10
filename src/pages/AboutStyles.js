@@ -92,14 +92,15 @@ const mediaStyles = {
     width: "25vw",
     height: "45vw",
     borderRadius: "1.25em",
-    marginTop: "-3vh",
-    paddingLeft: "3vw",
+    marginTop: "-6vh",
+    marginLeft: "3vw",
   },
   imageBox: {
     padding: "1vh",
     backgroundColor: "#181521",
     borderRadius: "1.25em",
-    marginBottom: "0.5vh",
+    marginTop: "-6vh",
+    marginLeft: "3vw",
   },
 };
 
