@@ -13,8 +13,8 @@ const styles = {
   },
   contactText: {
     color: "white",
-    fontSize: "3vh",
-    fontFamily: "Korona One",
+    fontSize: "2vh",
+    fontFamily: "Krona One",
     textShadow: "0.25rem 0.25rem 0.5rem rgba(0, 0, 0, 0.7)",
   },
   aboutMe: {
@@ -64,8 +64,8 @@ const mediaStyles = {
   },
   contactText: {
     color: "white",
-    fontSize: "2.5vh",
-    fontFamily: "Korona One",
+    fontSize: "2vh",
+    fontFamily: "Krona One",
     textShadow: "0.25rem 0.25rem 0.5rem rgba(0, 0, 0, 0.7)",
   },
   contactInfo: {
@@ -74,13 +74,13 @@ const mediaStyles = {
     alignItems: "flex-start",
   },
   aboutText: {
-    color: "black",
+    color: "white",
     fontFamily: "Regular",
     fontSize: "3vh",
-    padding: "3vh",
+    padding: "5vh",
     margin: "2vw",
-    textShadow: "0.125rem 0.125rem 0.25rem rgba(255, 255, 255, 0.8)",
-    backgroundColor: "#646464",
+    textShadow: "0.125rem 0.125rem 0.25rem rgba(0, 0, 0, 0.8)",
+    backgroundColor: "#181521",
     borderRadius: "1.25em",
   },
   aboutMe: {
@@ -92,10 +92,13 @@ const mediaStyles = {
     width: "25vw",
     height: "45vw",
     borderRadius: "1.25em",
+    position: "absolute",
+    top: "-3vh",
+    right: "10vw",
   },
   imageBox: {
     padding: "1vh",
-    backgroundColor: "#646464",
+    backgroundColor: "#181521",
     borderRadius: "1.25em",
     marginBottom: "0.5vh",
   },
