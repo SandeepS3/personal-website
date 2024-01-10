@@ -77,7 +77,7 @@ const mediaStyles = {
     color: "white",
     fontFamily: "Regular",
     fontSize: "3vh",
-    padding: "5vh",
+    padding: "8vh",
     margin: "2vw",
     textShadow: "0.125rem 0.125rem 0.25rem rgba(0, 0, 0, 0.8)",
     backgroundColor: "#181521",
@@ -93,7 +93,7 @@ const mediaStyles = {
     height: "45vw",
     borderRadius: "1.25em",
     position: "absolute",
-    top: "-0.5vh",
+    top: "20vh",
     right: "10vw",
   },
   imageBox: {
@@ -101,6 +101,9 @@ const mediaStyles = {
     backgroundColor: "#181521",
     borderRadius: "1.25em",
     marginBottom: "0.5vh",
+    position: "absolute",
+    top: "20vh",
+    right: "10vw",
   },
 };
 
