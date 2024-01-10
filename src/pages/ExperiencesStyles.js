@@ -179,7 +179,7 @@ const mediaStyles = {
   },
   experienceBoxes: {
     display: "flex",
-    justifyContent: "space-between",
+    flexDirection: "column",
     width: "95%",
   },
   experiencesBoxStart: {
@@ -188,7 +188,7 @@ const mediaStyles = {
     fontFamily: "Kavivanar",
     fontWeight: "bold",
     fontSize: "1.5vh",
-    width: "30vw",
+    width: "50vw",
     height: "19vh",
     display: "flex",
     flexDirection: "column",
@@ -203,7 +203,7 @@ const mediaStyles = {
     fontFamily: "Kavivanar",
     fontWeight: "bold",
     fontSize: "1.5vh",
-    width: "30vw",
+    width: "50vw",
     height: "19vh",
     display: "flex",
     flexDirection: "column",
