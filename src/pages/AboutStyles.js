@@ -89,6 +89,12 @@ const mediaStyles = {
     flexDirection: "column",
     alignItems: "flex-end",
   },
+  rightHalf: {
+    flex: 1,
+    display: "flex",
+    justifyContent: "center",
+    width: "80%",
+  },
   leftHalf: {
     flex: 1,
     display: "flex",
