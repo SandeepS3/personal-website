@@ -93,7 +93,7 @@ const mediaStyles = {
     height: "45vw",
     borderRadius: "1.25em",
     position: "absolute",
-    top: "-3vh",
+    top: "-0.5vh",
     right: "10vw",
   },
   imageBox: {
