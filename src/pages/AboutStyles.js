@@ -76,7 +76,7 @@ const mediaStyles = {
   aboutText: {
     color: "white",
     fontFamily: "Regular",
-    fontSize: "3vh",
+    fontSize: "2.8vh",
     paddingTop: "8vh",
     paddingBottom: "8vh",
     paddingLeft: "3vw",
@@ -97,7 +97,7 @@ const mediaStyles = {
   leftHalf: {
     flex: 1,
     display: "flex",
-    width: "95%",
+    width: "90%",
     alignItems: "flex-start",
   },
   image: {
