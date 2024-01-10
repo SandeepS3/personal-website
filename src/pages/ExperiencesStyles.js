@@ -104,6 +104,8 @@ const styles = {
     boxShadow:
       "0 4px 4px #580177, 0 4px 4px #580177,inset 0 4px 4px #580177, inset 0 0 50px black",
   },
+  experienceLeft: {},
+  experienceRight: {},
   resume: {
     flex: 0.5,
     display: "flex",
@@ -164,9 +166,7 @@ const mediaStyles = {
     fontSize: "1.7vh",
     flexDirection: "row",
     justifyContent: "space-between",
-    padding: "1vw",
     paddingTop: "3vh",
-    marginBottom: "0.5vh",
   },
   educationBottom: {
     fontFamily: "Alegreya",
@@ -174,7 +174,6 @@ const mediaStyles = {
     display: "flex",
     flexDirection: "row",
     justifyContent: "space-between",
-    padding: "1vw",
     paddingBottom: "3vh",
   },
   experienceBoxes: {
@@ -188,7 +187,7 @@ const mediaStyles = {
     borderRadius: "1.25em",
     fontFamily: "Kavivanar",
     fontWeight: "bold",
-    fontSize: "1.7vh",
+    fontSize: "2vh",
     width: "55vw",
     height: "15vh",
     display: "flex",
@@ -203,7 +202,7 @@ const mediaStyles = {
     borderRadius: "1.25em",
     fontFamily: "Kavivanar",
     fontWeight: "bold",
-    fontSize: "1.7vh",
+    fontSize: "2vh",
     width: "55vw",
     height: "15vh",
     display: "flex",
