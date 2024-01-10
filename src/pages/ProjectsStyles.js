@@ -112,8 +112,9 @@ const mediaStyles = {
   titleLeft: {
     display: "flex",
     justifyContent: "flex-end",
-    paddingBottom: "0.5vh",
+    paddingBottom: "2vh",
     marginLeft: "1vw",
+    marginTop: "-1vh",
   },
   descriptionBox1: {
     width: "100%",
