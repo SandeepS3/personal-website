@@ -120,13 +120,13 @@ const styles = {
     color: "white",
     borderRadius: "1.25em",
     boxShadow:
-      "0 2px 2px black, 0 2px 2px black,inset 0 2px 2px black, inset 0 0 10px black",
+      "0 0.5px 0.5px black, 0 0.5px 0.5px black,inset 0 0.5px 0.5px black, inset 0 0 10px black",
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
     width: "10vw",
     height: "6vh",
-    outline: "none",
+    border: "none",
   },
   download: {
     marginLeft: "0.5vw",
@@ -198,7 +198,7 @@ const mediaStyles = {
     borderRadius: "1.25em",
     fontFamily: "Kavivanar",
     // fontWeight: "bold",
-    fontSize: "2.5vh",
+    fontSize: "2.3vh",
     width: "55vw",
     height: "15vh",
     display: "flex",
@@ -213,7 +213,7 @@ const mediaStyles = {
     borderRadius: "1.25em",
     fontFamily: "Kavivanar",
     // fontWeight: "bold",
-    fontSize: "2.5vh",
+    fontSize: "2.3vh",
     width: "55vw",
     height: "15vh",
     display: "flex",
@@ -245,7 +245,7 @@ const mediaStyles = {
   button: {
     backgroundColor: "#1E1E1E",
     color: "white",
-    fontSize: "3vh",
+    fontSize: "1.5vh",
     borderRadius: "1em",
     boxShadow:
       "0 2px 2px black, 0 2px 2px black,inset 0 2px 2px black, inset 0 0 10px black",
@@ -257,8 +257,8 @@ const mediaStyles = {
   },
   download: {
     marginLeft: "0.5vw",
-    width: "8px",
-    height: "8px",
+    width: "10px",
+    height: "10px",
   },
 };
 
