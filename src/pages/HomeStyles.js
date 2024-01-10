@@ -32,24 +32,28 @@ const styles = {
 
 const mediaStyles = {
   background: {
-    backgroundImage: `url(${process.env.PUBLIC_URL}/images/MobileBeach.png)`,
-    backgroundRepeat: "no-repeat",
-    backgroundSize: "contain",
-    minHeight: "100vh",
-    borderRadius: "1.25em",
+    display: "flex",
+    flexDirection: "column",
+    paddingTop: "5vh",
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  image: {
+    width: "325px",
+    height: "325px",
   },
   info: {
     display: "flex",
     flexDirection: "column",
     alignItems: "flex-start",
+    width: "100%",
     paddingLeft: "5vw",
-    paddingTop: "50vh",
+    paddingTop: "3vh",
   },
   name: {
     fontFamily: "Acme",
     fontSize: "2.25rem",
     color: "white",
-    // marginBottom: "1rem",
   },
   title: {
     fontFamily: "Actor",
