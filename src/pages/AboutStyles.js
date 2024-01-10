@@ -103,8 +103,8 @@ const mediaStyles = {
     padding: "1vh",
     backgroundColor: "#181521",
     borderRadius: "1.25em",
-    marginTop: "-4vh",
-    marginLeft: "3vw",
+    marginTop: "-6vh",
+    marginLeft: "5vw",
   },
 };
 
