@@ -88,12 +88,17 @@ const mediaStyles = {
     flexDirection: "column",
     alignItems: "flex-start",
   },
+  leftHalf: {
+    flex: 1,
+    display: "flex",
+    alignItems: "flex-end",
+  },
   image: {
     width: "25vw",
     height: "45vw",
     borderRadius: "1.25em",
     marginTop: "-6vh",
-    marginLeft: "3vw",
+    // marginLeft: "3vw",
   },
   imageBox: {
     padding: "1vh",
