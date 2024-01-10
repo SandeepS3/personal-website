@@ -79,7 +79,7 @@ const mediaStyles = {
     fontSize: "3vh",
     paddingTop: "8vh",
     paddingBottom: "8vh",
-    margin: "2vw",
+    margin: "3vw",
     textShadow: "0.125rem 0.125rem 0.25rem rgba(0, 0, 0, 0.8)",
     backgroundColor: "#181521",
     borderRadius: "1.25em",
@@ -96,7 +96,7 @@ const mediaStyles = {
   leftHalf: {
     flex: 1,
     display: "flex",
-    width: "90%",
+    width: "95%",
     alignItems: "flex-start",
   },
   image: {
@@ -109,7 +109,7 @@ const mediaStyles = {
     backgroundColor: "#181521",
     borderRadius: "1.25em",
     marginTop: "-6vh",
-    marginLeft: "5vw",
+    marginLeft: "1vw",
   },
 };
 
