@@ -58,7 +58,7 @@ const mediaStyles = {
     display: "flex",
     // backgroundColor: "#4A4A4A",
     flexDirection: "column",
-    alignItems: "flex-start",
+    // alignItems: "flex-start",
     height: "100%",
     paddingTop: "5vh",
   },
@@ -71,7 +71,7 @@ const mediaStyles = {
   contactInfo: {
     display: "flex",
     flexDirection: "column",
-    // justifyContent: "space-between",
+    alignItems: "flex-start",
   },
   aboutText: {
     color: "black",
@@ -86,6 +86,7 @@ const mediaStyles = {
   aboutMe: {
     display: "flex",
     flexDirection: "column",
+    alignItems: "flex-start",
   },
   image: {
     width: "25vw",
