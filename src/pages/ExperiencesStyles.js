@@ -136,12 +136,19 @@ const styles = {
 };
 
 const mediaStyles = {
+  skills: {
+    flex: 1.5,
+    flexDirection: "row",
+    marginBottom: "1vh",
+    width: "100%",
+  },
   headName: {
     display: "flex",
     fontFamily: "Black Ops One",
     fontSize: "3.8vh",
     color: "white",
     alignItems: "flex-start",
+    marginLeft: "1vw",
   },
   skillbox: {
     backgroundColor: "#D9D9D9",
@@ -174,8 +181,8 @@ const mediaStyles = {
     flexDirection: "row",
     justifyContent: "space-between",
     paddingTop: "3vh",
-    paddingLeft: "1.5vw",
-    paddingRight: "1.5vw",
+    paddingLeft: "1.8vw",
+    paddingRight: "1.8vw",
   },
   educationBottom: {
     fontFamily: "Alegreya",
@@ -184,14 +191,14 @@ const mediaStyles = {
     flexDirection: "row",
     justifyContent: "space-between",
     paddingBottom: "3vh",
-    paddingLeft: "1.5vw",
-    paddingRight: "1.5vw",
+    paddingLeft: "1.8vw",
+    paddingRight: "1.8vw",
   },
   experienceBoxes: {
     display: "flex",
     flexDirection: "column",
     justifyContent: "center",
-    width: "95%",
+    width: "100%",
   },
   experiencesBoxStart: {
     backgroundColor: "#D9D9D9",
