@@ -136,6 +136,12 @@ const styles = {
 };
 
 const mediaStyles = {
+  container: {
+    display: "flex",
+    flexDirection: "column",
+    height: "100%",
+    paddingTop: "5vh",
+  },
   skills: {
     flex: 1.5,
     flexDirection: "row",
