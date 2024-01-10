@@ -32,24 +32,15 @@ const styles = {
 
 const mediaStyles = {
   background: {
-    // backgroundImage: `url(${process.env.PUBLIC_URL}/images/Beach1.png)`,
-    // backgroundRepeat: "no-repeat",
-    // backgroundSize: "contain",
-    // minHeight: "100vh",
-    // borderRadius: "1.25em",
-    // backgroundPosition: "center",
     display: "flex",
     flexDirection: "column",
     paddingTop: "5vh",
+    alignItems: "center",
+    justifyContent: "center",
   },
   image: {
-    display: "flex",
-    width: "325px", // Set a fixed width
+    width: "325px",
     height: "325px",
-    position: "absolute",
-    top: "50%",
-    left: "50%",
-    transform: "translate(-50%, -50%)",
   },
   info: {
     display: "flex",
