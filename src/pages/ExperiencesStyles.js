@@ -115,22 +115,52 @@ const mediaStyles = {
   headName: {
     display: "flex",
     fontFamily: "Black Ops One",
-    fontSize: "3.5vh",
+    fontSize: "3.8vh",
     color: "white",
     alignItems: "flex-start",
   },
   skillbox: {
     backgroundColor: "#D9D9D9",
     width: "15vw",
-    height: "10vh",
+    height: "8vh",
     borderRadius: "1.25em",
     fontFamily: "Indie Flower",
-    fontSize: "2vh",
+    fontSize: "1.8vh",
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
     boxShadow:
       "0 4px 4px #017777, 0 4px 4px #017777,inset 0 4px 4px #017777, inset 0 0 30px black",
+  },
+  education: {
+    flex: 1,
+    marginBottom: "1vh",
+  },
+  educationBox: {
+    backgroundColor: "#D9D9D9",
+    borderRadius: "1.25em",
+    marginBottom: "2vh",
+    width: "95%",
+    boxShadow:
+      "0 4px 4px #011B77, 0 4px 4px #011B77,inset 0 4px 4px #011B77, inset 0 0 35px black",
+  },
+  educationTop: {
+    display: "flex",
+    fontFamily: "Bakbak One",
+    fontSize: "2vh",
+    flexDirection: "row",
+    justifyContent: "space-between",
+    padding: "1vw",
+    paddingTop: "1vh",
+    marginBottom: "-4vh",
+  },
+  educationBottom: {
+    fontFamily: "Alegreya",
+    fontSize: "2vh",
+    display: "flex",
+    flexDirection: "row",
+    justifyContent: "space-between",
+    padding: "1vw",
   },
 };
 
