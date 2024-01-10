@@ -79,7 +79,7 @@ const mediaStyles = {
     fontSize: "3vh",
     paddingTop: "8vh",
     paddingBottom: "8vh",
-    // margin: "2vw",
+    margin: "2vw",
     textShadow: "0.125rem 0.125rem 0.25rem rgba(0, 0, 0, 0.8)",
     backgroundColor: "#181521",
     borderRadius: "1.25em",
@@ -95,11 +95,11 @@ const mediaStyles = {
     alignItems: "flex-end",
   },
   image: {
-    width: "25vw",
-    height: "45vw",
+    width: "35vw",
+    height: "55vw",
     borderRadius: "1.25em",
     marginTop: "-6vh",
-    // marginLeft: "3vw",
+    marginLeft: "2vw",
   },
   imageBox: {
     padding: "1vh",
