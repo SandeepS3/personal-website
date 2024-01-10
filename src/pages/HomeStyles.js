@@ -53,7 +53,6 @@ const mediaStyles = {
     fontFamily: "Acme",
     fontSize: "2.25rem",
     color: "white",
-    // marginBottom: "1rem",
   },
   title: {
     fontFamily: "Actor",
