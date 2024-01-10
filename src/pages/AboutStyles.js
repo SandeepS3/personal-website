@@ -97,6 +97,7 @@ const mediaStyles = {
   leftHalf: {
     flex: 1,
     display: "flex",
+    alignItems: "flex-start",
     width: "80%",
   },
   image: {
