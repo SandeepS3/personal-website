@@ -161,7 +161,7 @@ const mediaStyles = {
   educationTop: {
     display: "flex",
     fontFamily: "Bakbak One",
-    fontSize: "1.8vh",
+    fontSize: "1.5vh",
     flexDirection: "row",
     justifyContent: "space-between",
     padding: "1vw",
@@ -170,7 +170,7 @@ const mediaStyles = {
   },
   educationBottom: {
     fontFamily: "Alegreya",
-    fontSize: "1.8vh",
+    fontSize: "1.5vh",
     display: "flex",
     flexDirection: "row",
     justifyContent: "space-between",
