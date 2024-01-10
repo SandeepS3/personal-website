@@ -3,7 +3,6 @@ const styles = {
     display: "flex",
     // backgroundColor: "#4A4A4A",
     flexDirection: "column",
-    borderRadius: "1.25em",
     height: "100%",
   },
   contactInfo: {
@@ -55,6 +54,14 @@ const styles = {
 };
 
 const mediaStyles = {
+  container: {
+    display: "flex",
+    // backgroundColor: "#4A4A4A",
+    flexDirection: "column",
+    alignItems: "flex-start",
+    height: "100%",
+    paddingTop: "5vh",
+  },
   contactText: {
     color: "white",
     fontSize: "2.5vh",
@@ -64,7 +71,6 @@ const mediaStyles = {
   contactInfo: {
     display: "flex",
     flexDirection: "column",
-    padding: "5vh 6vw",
     // justifyContent: "space-between",
   },
   aboutText: {
