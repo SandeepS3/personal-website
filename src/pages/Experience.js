@@ -60,12 +60,12 @@ const Experience = () => {
       <div style={styles.experiences}>
         <p style={styles.headName}>Experiences</p>
         <div style={styles.experienceBoxes}>
-          <div style={styles.experiencesBox}>
+          <div style={styles.experiencesBoxStart}>
             <h>Area Manager Internship</h>
             <h>FAT1 Amazon, Fresno, CA</h>
             <h>June 2023 - August 2023</h>
           </div>
-          <div style={styles.experiencesBox}>
+          <div style={styles.experiencesBoxEnd}>
             <h>Sortation Assoicate</h>
             <h>EWR8 Amazon, Teterboro, NJ</h>
             <h>August 2022 - Present</h>

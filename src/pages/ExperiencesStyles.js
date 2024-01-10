@@ -74,7 +74,22 @@ const styles = {
     justifyContent: "space-between",
     width: "95%",
   },
-  experiencesBox: {
+  experiencesBoxStart: {
+    backgroundColor: "#D9D9D9",
+    borderRadius: "1.25em",
+    fontFamily: "Kavivanar",
+    fontWeight: "bold",
+    fontSize: "2.5vh",
+    width: "30vw",
+    height: "19vh",
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+    justifyContent: "center",
+    boxShadow:
+      "0 4px 4px #580177, 0 4px 4px #580177,inset 0 4px 4px #580177, inset 0 0 50px black",
+  },
+  experiencesBoxEnd: {
     backgroundColor: "#D9D9D9",
     borderRadius: "1.25em",
     fontFamily: "Kavivanar",
@@ -147,7 +162,7 @@ const mediaStyles = {
   educationTop: {
     display: "flex",
     fontFamily: "Bakbak One",
-    fontSize: "2vh",
+    fontSize: "1.8vh",
     flexDirection: "row",
     justifyContent: "space-between",
     padding: "1vw",
@@ -156,11 +171,46 @@ const mediaStyles = {
   },
   educationBottom: {
     fontFamily: "Alegreya",
-    fontSize: "2vh",
+    fontSize: "1.8vh",
     display: "flex",
     flexDirection: "row",
     justifyContent: "space-between",
     padding: "1vw",
+  },
+  experienceBoxes: {
+    display: "flex",
+    justifyContent: "space-between",
+    width: "95%",
+  },
+  experiencesBoxStart: {
+    backgroundColor: "#D9D9D9",
+    borderRadius: "1.25em",
+    fontFamily: "Kavivanar",
+    fontWeight: "bold",
+    fontSize: "1.5vh",
+    width: "30vw",
+    height: "19vh",
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+    justifyContent: "center",
+    boxShadow:
+      "0 4px 4px #580177, 0 4px 4px #580177,inset 0 4px 4px #580177, inset 0 0 50px black",
+  },
+  experiencesBoxEnd: {
+    backgroundColor: "#D9D9D9",
+    borderRadius: "1.25em",
+    fontFamily: "Kavivanar",
+    fontWeight: "bold",
+    fontSize: "1.5vh",
+    width: "30vw",
+    height: "19vh",
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+    justifyContent: "center",
+    boxShadow:
+      "0 4px 4px #580177, 0 4px 4px #580177,inset 0 4px 4px #580177, inset 0 0 50px black",
   },
 };
 
