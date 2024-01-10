@@ -145,7 +145,7 @@ const mediaStyles = {
   },
   skillbox: {
     backgroundColor: "#D9D9D9",
-    width: "18vw",
+    width: "16vw",
     height: "8vh",
     borderRadius: "1.25em",
     fontFamily: "Indie Flower",
