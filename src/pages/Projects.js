@@ -23,13 +23,17 @@ const Projects = () => {
     return (
       <div style={styles.project}>
         <div style={styles.title}>
-          <p style={styles.titleText}> {title}</p>
-          <button
-            onClick={() => handleOpenWebsite(title)}
-            style={styles.titleButton}
-          >
-            {button}
-          </button>
+          <div style={styles.titleRight}>
+            <p style={styles.titleText}> {title}</p>
+          </div>
+          <div style={styles.titleLeft}>
+            <button
+              onClick={() => handleOpenWebsite(title)}
+              style={styles.titleButton}
+            >
+              {button}
+            </button>
+          </div>
         </div>
         <div
           style={

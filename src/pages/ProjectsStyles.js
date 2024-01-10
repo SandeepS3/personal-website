@@ -87,11 +87,11 @@ const mediaStyles = {
   titleText: {
     color: "white",
     fontFamily: "Black Ops One",
-    fontSize: "3vh",
+    fontSize: "2.8vh",
     display: "flex",
-    alignItems: "flex-start",
+    justifyContent: "flex-start",
     marginLeft: "1vw",
-    paddingBottom: "2vh",
+    paddingBottom: "0.5vh",
   },
   titleButton: {
     backgroundColor: "#181521",
@@ -102,10 +102,10 @@ const mediaStyles = {
     fontSize: "1.2vh",
     border: "none",
     cursor: "pointer",
-    width: "20vw",
+    width: "25vw",
     height: "6vh",
     display: "flex",
-    alignItems: "flex-end",
+    justifyContent: "flex-end",
     marginRight: "1vw",
   },
   descriptionBox1: {
