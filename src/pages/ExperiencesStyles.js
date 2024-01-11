@@ -151,7 +151,7 @@ const mediaStyles = {
   headName: {
     display: "flex",
     fontFamily: "Black Ops One",
-    fontSize: "3.8vh",
+    fontSize: "2.5vh",
     color: "white",
     alignItems: "flex-start",
     marginLeft: "1vw",
