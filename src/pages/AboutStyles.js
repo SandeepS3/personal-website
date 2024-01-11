@@ -72,6 +72,7 @@ const mediaStyles = {
     display: "flex",
     flexDirection: "column",
     alignItems: "flex-start",
+    marginLeft:"2vw",
   },
   aboutText: {
     color: "white",
