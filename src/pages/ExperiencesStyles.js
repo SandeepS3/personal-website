@@ -177,6 +177,7 @@ const mediaStyles = {
     backgroundColor: "#D9D9D9",
     borderRadius: "1.25em",
     width: "100%",
+    marginBottom:"1vh",
     boxShadow:
       "0 4px 4px #011B77, 0 4px 4px #011B77,inset 0 4px 4px #011B77, inset 0 0 35px black",
   },
