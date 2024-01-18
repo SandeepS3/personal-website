@@ -53,7 +53,7 @@ const Experience = () => {
           </div>
           <div style={styles.educationBottom}>
             <h>Expected Graduation: December 2024</h>
-            <h>B.A. in Computer Science</h>
+            <h>B.S. in Computer Science</h>
           </div>
         </div>
       </div>
