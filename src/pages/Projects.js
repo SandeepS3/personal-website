@@ -4,7 +4,7 @@ const Projects = () => {
   const handleOpenWebsite = (project) => {
     let websiteURL = "";
     if (project === "BitFit Web Application") {
-      websiteURL = "https://bitfitapp.azurewebsites.net/";
+      websiteURL = "https://youtu.be/C_96CLAwc38";
     } else if (project === "Amazon Intern Python Project") {
       websiteURL = "https://github.com/SandeepS3/InternProject";
     } else if (project === "Simple Arcade Website") {
@@ -57,7 +57,7 @@ const Projects = () => {
     <div style={styles.projects}>
       <ProjectReturner
         title="BitFit Web Application"
-        button="Link to Website"
+        button="Youtube App Demo"
         color="1"
         text1="Collaborated with a team to develop a fully functional website
         using a technology stack comprising React for the front end, MySQL
