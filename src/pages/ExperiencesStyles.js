@@ -71,8 +71,9 @@ const styles = {
   },
   experienceBoxes: {
     display: "flex",
-    justifyContent: "space-between",
+    justifyContent: "space-around",
     width: "95%",
+    marginBottom: "3vh",
   },
   experiencesBoxStart: {
     backgroundColor: "#D9D9D9",
