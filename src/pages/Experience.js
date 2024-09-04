@@ -56,7 +56,7 @@ const Experience = () => {
             <h> NEWARK, NJ</h>
           </div>
           <div style={styles.educationBottom}>
-            <h>Expected Graduation: May 2024</h>
+            <h>Graduation: May 2024</h>
             <h>B.S. in Computer Science</h>
           </div>
         </div>
@@ -66,22 +66,29 @@ const Experience = () => {
         <div style={styles.experienceBoxes}>
           <div style={styles.experienceLeft}>
             <div style={styles.experiencesBoxStart}>
-              <h>Full Stack Developer Intern</h>
-              <h>EventGames.io, Newark, NJ</h>
-              <h>January 2024 - Present</h>
+              <h>Web Developer</h>
+              <h>boomerroomers, Wesport, CT</h>
+              <h>July 2024 - August 2024</h>
             </div>
           </div>
           <div style={styles.experienceRight}>
             <div style={styles.experiencesBoxEnd}>
-              <h>Area Manager Internship</h>
-              <h>Amazon, Fresno, CA</h>
-              <h>June 2023 - August 2023</h>
+              <h>Full Stack Developer Intern</h>
+              <h>EventGames.io, Newark, NJ</h>
+              <h>January 2024 - May 2024</h>
             </div>
           </div>
         </div>
         <div style={styles.experienceBoxes}>
           <div style={styles.experienceLeft}>
             <div style={styles.experiencesBoxStart}>
+              <h>Developer Internship</h>
+              <h>Amazon, Fresno, CA</h>
+              <h>June 2023 - August 2023</h>
+            </div>
+          </div>
+          <div style={styles.experienceRight}>
+            <div style={styles.experiencesBoxEnd}>
               <h>Sortation Assoicate</h>
               <h>Amazon, Teterboro, NJ</h>
               <h>August 2022 - Present</h>
