@@ -11,10 +11,10 @@ const About = () => {
       <div style={styles.aboutMe}>
         <div style={styles.leftHalf}>
           <p style={styles.aboutText}>
-            A little bit about me: I am a student specializing in computer
-            science actively pursuing opportunities for a full-time position or
-            internship in Software Engineering. This website serves as an
-            extended introduction to my professional profile.
+            A little bit about me: I am a NJIT graduate that specialized in
+            computer science. I am actively pursuing opportunities for a
+            full-time position in Software Engineering. This website serves as
+            an extended introduction to my professional profile.
           </p>
         </div>
         <div style={styles.rightHalf}>
