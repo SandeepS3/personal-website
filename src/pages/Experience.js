@@ -23,7 +23,7 @@ const Experience = () => {
 
     const link = document.createElement("a");
     link.href = pdfFilePath;
-    link.setAttribute("download", `Sandeep's Resume`);
+    link.setAttribute("download", `Singh_Resume`);
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -56,7 +56,7 @@ const Experience = () => {
             <h> NEWARK, NJ</h>
           </div>
           <div style={styles.educationBottom}>
-            <h>Graduation: May 2024</h>
+            <h>Graduation: December 2024</h>
             <h>B.S. in Computer Science</h>
           </div>
         </div>
@@ -67,6 +67,15 @@ const Experience = () => {
           <div style={styles.experienceLeft}>
             <div style={styles.experiencesBoxStart}>
               <h>Web Developer</h>
+              <h>Jenson & Mitchell, Paterson, NJ</h>
+              <h>April 2025 - Present</h>
+            </div>
+          </div>
+        </div>
+        <div style={styles.experienceBoxes}>
+          <div style={styles.experienceLeft}>
+            <div style={styles.experiencesBoxStart}>
+              <h>Full Stack Developer</h>
               <h>boomerroomers, Wesport, CT</h>
               <h>July 2024 - August 2024</h>
             </div>
